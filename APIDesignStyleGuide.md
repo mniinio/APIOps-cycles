@@ -117,7 +117,9 @@ Use nouns in plural as resource names e.g. `/products`.
 
 <td>X</td>
 
-<td markdown="1"> Standard use does not include a request body for GET -requests. Most standard based tools and coding libraries do not support having a body. Some older systems can't make GET -requests at all (only POST). Search queries with lots of search filters may end up having too long URLs (what is too long depends on the application limits, such as browsers).</td>
+<td markdown="1"> 
+Standard use does not include a request body for GET -requests. Most standard based tools and coding libraries do not support having a body. Some older systems can't make GET -requests at all (only POST). Search queries with lots of search filters may end up having too long URLs (what is too long depends on the application limits, such as browsers).
+</td>
 
 </tr>
 
