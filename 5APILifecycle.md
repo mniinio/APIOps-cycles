@@ -12,7 +12,7 @@ Approval might be required to move API through lifecycle states, in most cases a
 
 Here's an example of states API can have
 
-![API-lifecycle-state-diagram.JPG]
+![API-lifecycle](../img/API-lifecycle-state-diagram.JPG)
 
 ### Draft
 
