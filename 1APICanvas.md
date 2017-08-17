@@ -113,4 +113,4 @@ You can either **estimate the real costs** (which could be difficult at this s
 
 *   Stakeholder approvals
 
-*   <ac:link><ri:page ri:content-title="Collecting architecture requirements"></ri:page></ac:link>
+*   [Collecting architecture requirements](CollectingArchitectureRequirements)
