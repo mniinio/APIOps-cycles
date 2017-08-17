@@ -1,4 +1,6 @@
-## APIOps&reg; Cycles table of contents
+---
+title: APIOps&reg; Cycles table of contents
+---
 
 - [APIOps Cycles](APIOpsCycles)
 	- [0 What is APIOps?](WhatIsAPIOps)
