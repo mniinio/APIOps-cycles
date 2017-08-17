@@ -1,19 +1,19 @@
 ## ToC
 
-[APIOps Cycles](APIOpsCycles.md)
-	[0 What is APIOps?](0WhatIsAPIOps.md)
-	[1. API Canvas](1APICanvas.md)
-		[API Business models](APIBusinessModels.md)
-	[2. Minimum Viable API Architecture (MVAA)](2MinimumViableAPIArchitecture(MVAA).md)
-		[Collecting architecture requirements](CollectingArchitectureRequirements.md)
-	[3. Build APIs](3BuildAPIs.md)
-		[API design style guide](APIDesignStyleGuide.md)
-	[4. API Audit](4APIAudit.md)
-	[5. API lifecycle](5APILifecycle.md)
-	[6. Developer (API consumer) program](6Developer(APIConsumer)Program.md)
-		[API and Developer portal terms and conditions](APIAndDeveloperPortalTermsAndConditions.md)
-	[7. Measuring APIs](7MeasuringAPIs.md)
-	[API management key concepts](APIManagementKeyConcepts.md)
+- [APIOps Cycles](APIOpsCycles.md)
+	- [0 What is APIOps?](0WhatIsAPIOps.md)
+	- [1. API Canvas](1APICanvas.md)
+		- [API Business models](APIBusinessModels.md)
+	- [2. Minimum Viable API Architecture (MVAA)](2MinimumViableAPIArchitecture(MVAA).md)
+		- [Collecting architecture requirements](CollectingArchitectureRequirements.md)
+	- [3. Build APIs](3BuildAPIs.md)
+		- [API design style guide](APIDesignStyleGuide.md)
+	- [4. API Audit](4APIAudit.md)
+	- [5. API lifecycle](5APILifecycle.md)
+	- [6. Developer (API consumer) program](6Developer(APIConsumer)Program.md)
+		- [API and Developer portal terms and conditions](APIAndDeveloperPortalTermsAndConditions.md)
+	- [7. Measuring APIs](7MeasuringAPIs.md)
+	- [API management key concepts](APIManagementKeyConcepts.md)
 
 ## Welcome to GitHub Pages
 
