@@ -1,3 +1,8 @@
+---
+title: 7 Measuring APIs
+slug: 7MeasuringAPIs
+---
+
 These are the typical dashboards and measures used for measuring business and technical performance and developer satisfaction for APIs.
 
 Depending on the API management platform used, there are analytics dashboards available in the Developer portal for API consumers and in the API management portal for API Providers. In most API management platforms there is a way to export in real-time or manually the data to BI- or log analytics tools or any platform using APIs.
