@@ -1,3 +1,8 @@
+---
+title: API Business Models
+slug: APIBusinessModels
+---
+
 APIs provide our company possibilities to improve, change or add to our current business models. APIs can provide a way to create an internal and/or external platform and promote re-using, sharing and network business models.
 
 Business model describes how our company (or a specific business unit) creates, delivers and captures value.
