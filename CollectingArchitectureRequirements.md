@@ -1,3 +1,5 @@
+# Collecting Architecture Requirements
+
 We’ll take 5 views on architecture development making sure we
 
 *   come to handle all relevant layers of architecture
@@ -91,7 +93,7 @@ Identify the related systems and data sources from the API Canvas "Key resources
     2.  If the CRM system is providing APIs, for example for searching customers and creating and updating them, then mark it in the "Provider" box.
     3.  If it is consuming APIs from other systems, mark the names of those APIs or those systems to the "Consumer" box.
 3.  Put applications which are accessible by partners to the "Partner network" boxes. Partners in this context mean customers, vendors, subcontractors, anyone with an agreement and access, typically via VPN, IP restrictions or specific partner user account but only to certain systems or parts of the network.
-4.  If some systems are accessible only from a certain country (country-specific organization or actually restricted by location) mark them to "Country-specific network" and also note which country or geopolitical area they can be accessed from ([f.eg](http://f.eg). Finland, EU, EEC).
+4.  If some systems are accessible only from a certain country (country-specific organization or actually restricted by location) mark them to "Country-specific network" and also note which country or geopolitical area they can be accessed from e.g. Finland, EU, EEC).
 5.  Put systems and data which can be accessed from anywhere in the world and in public internet to the "Different locations globally". It's important to know if this means that the systems are located in multiple locations, if the same data and services need to be read fast from different locations or if different locations have and can have different systems and data, even data models.
 6.  If there are multiple systems or if the situation is otherwise very complex, use multiple templates or better yet, write a short description and possibly a network diagram of the situation
 7.  Check you have also marked the API Consuming applications in their correct places, at least those someone already knows about but also those in the near future. It's almost always safe to assume there will be users accessing the API from at least public internet and company networks.
@@ -189,28 +191,17 @@ Scenarios in the context of Behaviour Driven Development mean a simple but compl
 
 For example placing an order in a webstore could be broken down to scenarios:
 
-Scenario 1: normal order, process until payment
+*Scenario 1: normal order, process until payment*
+                Given customer has entered his contact details, products, quanitities
+                And customer has selected payment method
+                And customer has chosen order confirmation method
+                When customer submits order
+                Then order is saved to ERP as preliminary order
+                And customer is directed to payment provider
 
-Given customer has entered his contact details, products, quanitities
-
-And customer has selected payment method
-
-And customer has chosen order confirmation method
-
-When customer submits order
-
-Then order is saved to ERP as preliminary order
-
-And customer is directed to payment provider
-
-Scenario 2: normal order, payment has been processed
-
-Given customer has submitted order
-
-and customer has paid order in payment providers service
-
-And customer has returned correctly to web store
-
-Then order is saved to ERP as paid, waiting for delivery
-
-And customer receives order confirmation with selected method
+*Scenario 2: normal order, payment has been processed*
+                Given customer has submitted order
+                and customer has paid order in payment providers service
+                And customer has returned correctly to web store
+                Then order is saved to ERP as paid, waiting for delivery
+                and customer receives order confirmation with selected method
