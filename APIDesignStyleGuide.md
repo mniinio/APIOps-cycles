@@ -105,8 +105,6 @@ Use nouns in plural as resource names e.g. `/products`.
 
 </thead>
 
-<tbody>
-
 <tr>
 
 <td>GET</td>
@@ -173,8 +171,6 @@ Used with [JSON Patch](https://tools.ietf.org/html/rfc6902) message format. Us
 Do not implement for collections if not absolutely sure to avoid accidental removal of multiple resources. DELETE has no request body, so identifiers can only be passed in the url. Should be repeatable with positive response.</td>
 
 </tr>
-
-</tbody>
 
 </table>
 
