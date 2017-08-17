@@ -1,3 +1,8 @@
+---
+title: 2 Minimum Viable API Architecture
+slug: 2MinimumViableAPIArchitecture-MVAA
+---
+
 ## Overview of the MVAA method for designing architecture
 
 Minimum Viable Architecture is a set of design principles which is very suitable for APIs, microservices and API management as it is designed for different stages of growth and maturity. In general, the MVA approach can be used for any architecture design process, but here we have adopted it to APIs, microservices and API management specifically.
