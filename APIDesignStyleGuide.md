@@ -124,7 +124,8 @@ Standard use does not include a request body for GET -requests. Most standard ba
 <td>Create</td>
 
 <td markdown="1">
-Supported by most (but not all) API consumers. Can be used as alternative for all other verbs if you need to support old or exotic clients or run out of URL length with GETs. </td>
+Supported by most (but not all) API consumers. Can be used as alternative for all other verbs if you need to support old or exotic clients or run out of URL length with GETs.
+</td>
 
 </tr>
 
@@ -135,7 +136,8 @@ Supported by most (but not all) API consumers. Can be used as alternative for al
 <td>Create</td>
 
 <td markdown="1">
-Theory says this should only be used when client gives the resource identifier, usually e.g. file with a client given unique name. Use with care, as all clients do not support PUT. Support those clients by implementing POST and not requiring identifier so new resource will be created and identifier returned to the client in the response body</td>
+Theory says this should only be used when client gives the resource identifier, usually e.g. file with a client given unique name. Use with care, as all clients do not support PUT. Support those clients by implementing POST and not requiring identifier so new resource will be created and identifier returned to the client in the response body
+</td>
 
 </tr>
 
@@ -146,7 +148,8 @@ Theory says this should only be used when client gives the resource identifier, 
 <td>Update</td>
 
 <td markdown="1">
-Only for entire resource update, not partial, see above</td>
+Only for entire resource update, not partial, see above
+</td>
 
 </tr>
 
@@ -157,7 +160,8 @@ Only for entire resource update, not partial, see above</td>
 <td>Update</td>
 
 <td markdown="1">
-Used with [JSON Patch](https://tools.ietf.org/html/rfc6902) message format. Use with care, as all clients do not support PATCH. Support those clients by implementing POST which can handle partial inputs, otherwise uses normal POST request body</td>
+Used with [JSON Patch](https://tools.ietf.org/html/rfc6902) message format. Use with care, as all clients do not support PATCH. Support those clients by implementing POST which can handle partial inputs, otherwise uses normal POST request body
+</td>
 
 </tr>
 
@@ -168,7 +172,8 @@ Used with [JSON Patch](https://tools.ietf.org/html/rfc6902) message format. Us
 <td>Delete</td>
 
 <td markdown="1">
-Do not implement for collections if not absolutely sure to avoid accidental removal of multiple resources. DELETE has no request body, so identifiers can only be passed in the url. Should be repeatable with positive response.</td>
+Do not implement for collections if not absolutely sure to avoid accidental removal of multiple resources. DELETE has no request body, so identifiers can only be passed in the url. Should be repeatable with positive response.
+</td>
 
 </tr>
 
