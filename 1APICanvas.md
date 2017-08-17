@@ -1,3 +1,8 @@
+---
+title: 1. API Canvas
+slug: APICanvas
+---
+
 API Canvas is a tool to Visualize, Design and Test how to create value for customers. It directs user to understand the full API life-cycle and to think how to communicate and support the API consumers and give them access to the API. It also focuses on how to monetize the API and add value; like customer retention or cost savings. Main benefit of API Canvas compared to for example project scoping tools is that it **treats the API as a product**. This means that it tries to find the needs of several API Consumer segments, not just the one at hand. API Canvas was adapted from Alex Osterwalder's Business Model Canvas and optimized for the API Development.
 
 Digia APIOps tools consists of two visual charts, **API Value Proposition Canvas** and **API Canvas**.
