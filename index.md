@@ -1,7 +1,5 @@
 ---
 title: APIOps&reg; Cycles table of contents
-
-permalink: /index/
 ---
 
 ## Getting started
