@@ -1,3 +1,7 @@
+---
+title: 5 API Lifecycle
+slug: 5APILifecycle
+---
 As APi's are considered to be **products** they also have a lifecycle. Having a formal lifecycle helps you to understand the implications of changes in API's and gives your API consumers assurance and confidence to use the API's. API's are published to Catalogs or API Store's using API Management Products to make them available for API consumers.
 
 API Lifecycle has a **series of states**, which might depend on the API Management Product used. When you manage your API's, you move them through the lifecycle states. From initially staging the API version to a Catalog, through to publishing to make the API available to you developers, and to eventually retiring and archiving.
