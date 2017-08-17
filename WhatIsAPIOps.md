@@ -1,3 +1,6 @@
+---
+slug: whatisapiops
+---
 ## 0 What is APIOps? ##
 
 APIOps is a term coined from DevOps. APIOps highlights unique nature of developing and operating APIs compared to other software. 
