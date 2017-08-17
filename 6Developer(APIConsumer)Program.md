@@ -1,5 +1,5 @@
 ---
-title: 6 Developer (API Consumer) Program
+title: Developer (API Consumer) Program
 permalink: /Developer-APIConsumer-Program/
 ---
 
