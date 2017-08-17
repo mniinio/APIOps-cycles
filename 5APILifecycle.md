@@ -1,5 +1,5 @@
 ---
-title: 5 API Lifecycle
+title: API Lifecycle
 slug: 5APILifecycle
 ---
 As APi's are considered to be **products** they also have a lifecycle. Having a formal lifecycle helps you to understand the implications of changes in API's and gives your API consumers assurance and confidence to use the API's. API's are published to Catalogs or API Store's using API Management Products to make them available for API consumers.
@@ -12,7 +12,7 @@ Approval might be required to move API through lifecycle states, in most cases a
 
 Here's an example of states API can have
 
-<ac:image ac:width="600"><ri:attachment ri:filename="API-lifecycle-state-diagram.JPG"></ri:attachment></ac:image>
+![API-lifecycle-state-diagram.JPG]
 
 ### Draft
 
