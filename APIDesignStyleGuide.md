@@ -20,7 +20,7 @@ Use examples-attribute with JSON schemas (validated) to provide automatically ge
 *   Use only camelCase in all attribute (field) names.
 *   Do not use special characters in URI or in attribute names.
 *   Use English only in OpenAPI specification.
-*   Use common legally used or industry specific (not company specific) words about resources and attributes. Refer to ISO standards as primary source, then use WTO, EU or other trade area specific vocabularies, [<u>http://schema.org/</u>](http://schema.org/) or industry specific vocabularies for naming. As last resort refer to company specific vocabularies before inventing your own.
+*   Use common legally used or industry specific (not company specific) words about resources and attributes. Refer to ISO standards as primary source, then use WTO, EU or other trade area specific vocabularies, [http://schema.org/](http://schema.org/) or industry specific vocabularies for naming. As last resort refer to company specific vocabularies before inventing your own.
 *   Avoid using general names like "type", "status" etc. without specifying what type, what status or better yet, avoiding those words all together.
 *   Use ISO standard or other generally used (see above) values for attribute values such as languages, country names etc. Avoid using magic numbers as values or provide also the human language alternative, preferrably according to the Accept-Language header in the request.
 
@@ -85,7 +85,7 @@ Try to use only one resource level, absolutely avoid using more than two levels 
 
 ## Collection Resources
 
-Resource endpoints should follow at least View and [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) (Create, Read, Update, Delete) operations. These should be handled by using the same URI but using different HTTP verbs (POST/GET/PUT/PATCH/DELETE, more details about each verb in ([<u>https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html</u>](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html)) ).
+Resource endpoints should follow at least View and [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) (Create, Read, Update, Delete) operations. These should be handled by using the same URI but using different HTTP verbs (POST/GET/PUT/PATCH/DELETE, more details about each verb in ( [https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) ) ).
 
 Use nouns in plural as resource names e.g. `/products`.
 
