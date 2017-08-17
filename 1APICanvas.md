@@ -5,7 +5,11 @@ slug: APICanvas
 
 API Canvas is a tool to Visualize, Design and Test how to create value for customers. It directs user to understand the full API life-cycle and to think how to communicate and support the API consumers and give them access to the API. It also focuses on how to monetize the API and add value; like customer retention or cost savings. Main benefit of API Canvas compared to for example project scoping tools is that it **treats the API as a product**. This means that it tries to find the needs of several API Consumer segments, not just the one at hand. API Canvas was adapted from Alex Osterwalder's Business Model Canvas and optimized for the API Development.
 
-Digia APIOps tools consists of two visual charts, **API Value Proposition Canvas** and **API Canvas**.
+APIOps&reg; Cycles design book starts withe visual chart templates for discovering key business and technical value, tasks and resources.
+- **API Value Proposition Canvas** and
+- **API Canvas**
+
+## API Value Proposition Canvas (AVP)
 
 The **Value Proposition Canvas** is composed to two parts, the **API Consumer View** and **API Provider View**.
 
@@ -14,6 +18,8 @@ With the **API Consumer View** you describe the tasks the consumer needs to ach
 With the **API Provider View**, you list the **API products or services** your value proposition builds on. Describe in which way these products, services and features are **pain relievers**, how they eliminate, reduce or minimize pains consumers care about. Outline in which way they are **gain creators**. How they produce, increase or maximize outcomes and benefits that your consumer expects.
 
 The value proposition makes explicit how the API's relieve pains and create gains. Use it to design, test and iterate your value proposition until you figure out what resonates to consumers. You achieve fit by creating a clear connection between what matters to customers and how your products, services and features ease pain and create gains.
+
+## API Canvas
 
 The **API Canvas** is composed of nine areas, which have almost the same titles as in Business Model Canvas. Canvas is composed to four parts, **Value Proposition**, **Infrastructure**, **Consumers** and **Finances**.
 
@@ -71,21 +77,21 @@ Summarize the "who, what, why" with one short sentence based on the fields D and
 
 Copy the main API(s) you are now focused on creating/updating to the **API name field**
 
-### **API Consumer Segments (2)**
+### API Consumer Segments (2)
 
 You have now looked at the problem from at least one customer segments perspective.  Fill in **API Consumer segments (2):** what was the segment you thought about when doing the AVP Canvas? Who else could also use this API?. This is a good place to talk to the persons in charge of business developement and partner relationships. Don’t forget also marketing and vendor management people. If you find it helpful you can also list the end-user segments of the applications you need to support for the API.
 
-### **Developer relations (3)**
+### Developer relations (3)
 
 How do developers find the API? How to ensure API is usable for them, how to understand what it can be used for? How to test drive it? How is their subscription approved? Do they have to sign an agreement? How do they give feedback, see roadmap, participate in discussion?
 
-### **Channels (4)**
+### Channels (4)
 
 Think of this in different perspectives, a) the channels i.e. the technical applications with which the end-users are interacting with the API and b) the channels from which the developers find and can find, buy/request access to your API.
 
-### **Revenue streams (5)**
+### Revenue streams (5)
 
-What is the <ac:link><ri:page ri:content-title="API Business models"><ac:plain-text-link-body></ac:plain-text-link-body></ri:page></ac:link> of this API?
+What is the [API Business models](APIBusinessModels) of this API?
 
 *   How does the API help you as an API Provider to create revenue (directly or in-directly)?
 *   How can you reduce costs by offering an API?
@@ -93,19 +99,19 @@ What is the <ac:link><ri:page ri:content-title="API Business models"><ac:plain-
 
 ## Step 3: API Canvas – Left side
 
-### **Key activities (6)**
+### Key activities (6)
 
 Look at the features in the Value proposition field. What do you need to build or create to achieve the features? Don’t forget platforms, testing environments and other supporting elements. You might need to create also other non-functional elements like agreement templates, marketing materials etc.
 
-### **Key resources (7)**
+### Key resources (7)
 
 Take a look at the **field F in the AVP Canvas**. Are there any existing APIs or other services that you can use to create the new API –features? What existing platforms, backend integrations, document templates etc. will you use?
 
-### **Key partners (8)**
+### Key partners (8)
 
 Think about partners in this case as internal and external people outside your team. Look at the Key activities, Key resources and all the API Consumer related fields. Who do you need to co-operate with to make these API –features alive and usable for the intended API Consumers?
 
-### **Cost structure (9)**
+### Cost structure (9)
 
 You can either **estimate the real costs** (which could be difficult at this stage before architecture has been designed or all the team assembled) **or set target based** on the profit margins defined by the revenue and cost-savingsin the Revenue streams –section. Remember the fixed monthly costs for architecture components and maintenance are probably the highest costs (unless your platform requires licenses). The variable costs will start to matter when your API has 1M+ users.
 
