@@ -1,5 +1,6 @@
 ---
 title: Build APIs
+permalink: /buildapis/
 ---
 
 ## Before starting to build APIs
