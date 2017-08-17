@@ -27,12 +27,9 @@ $hr-border-color: #eff0f1 !default;
 @import "{{ site.theme }}";
 
 .w3-bar-block .w3-bar-item {
-    width: 100%;
     display: block;
-    padding: 8px 16px;
-    text-align: left;
-    border: none;
-    outline: none;
-    white-space: normal;
-    float: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.77778rem 0;
 }
