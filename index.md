@@ -1,4 +1,4 @@
-## ToC
+## APIOps&reg; Cycles table of contents
 
 - [APIOps Cycles](APIOpsCycles)
 	- [0 What is APIOps?](WhatIsAPIOps)
