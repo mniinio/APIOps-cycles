@@ -9,8 +9,8 @@ title: APIOps&reg; Cycles table of contents
 - [1. API Canvas](apicanvas)
 - [2. Minimum Viable API Architecture (MVAA)](MinimumViableAPIArchitecture-MVAA)
 - [3. Build APIs](buildapis)
-- [4. API Audit](APIAudit)
-- [5. API lifecycle](APILifecycle)
+- [4. API Audit](apiaudit)
+- [5. API lifecycle](apilifecycle)
 - [6. Developer (API consumer) program](Developer-APIConsumer-Program)
 - [7. Measuring APIs](measuringapis)
 
