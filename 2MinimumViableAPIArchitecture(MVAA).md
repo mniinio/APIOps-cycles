@@ -1,5 +1,5 @@
 ---
-title: 2 Minimum Viable API Architecture
+title: Minimum Viable API Architecture
 permalink: 2MinimumViableAPIArchitecture-MVAA
 ---
 
