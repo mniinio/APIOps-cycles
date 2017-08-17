@@ -182,7 +182,7 @@ Validate the prototype with [API Audit](4APIAudit).
 
 <td>API Canvas (as input to MVA)</td>
 
-<td markdown="span">
+<td markdown="1">
 
 1.  What platform are the API consuming clients building their services to? Where is it physically located? What special requirements does it have e.g. JSON as data format, can use headers, can use all http -headers, authentication).
 2.  What are the systems providing data or logic as backend to this API? With what technology are they built? Where is it physically located? What special requirements does it have (data formats, authentication, interface specification, load restrictions).
@@ -195,7 +195,7 @@ Validate the prototype with [API Audit](4APIAudit).
 
 <td>MVA</td>
 
-<td>
+<td markdown="1">
 
 1.  Stick to familiar architecture, when risks are small designs don't have to be heavy and perfect.
 
@@ -214,7 +214,7 @@ Validate the prototype with [API Audit](4APIAudit).
 
 <td>Build</td>
 
-<td>
+<td markdown="1">
 
 1.  Build modifyible and replacable modules, they are protected with API managment and API interfaces so you should be able to replace them easily.
 2.  Because the OpenAPI specification and examples exists, every team member or even other teams can do their own piece of the whole (UI, database design, coding) with the shared specification without extra waiting time.
@@ -229,7 +229,7 @@ Validate the prototype with [API Audit](4APIAudit).
 
 <td colspan="1">API Audit</td>
 
-<td markdown="span">
+<td markdown="1">
 
 Validate the prototype with [API Audit](4APIAudit).
 
@@ -241,7 +241,7 @@ Validate the prototype with [API Audit](4APIAudit).
 
 <td colspan="1">API Lifecycle</td>
 
-<td markdown="span">
+<td markdown="1">
 
 Setup API management publishing in the Continuous integration tool chain.
 
@@ -253,7 +253,7 @@ Setup API management publishing in the Continuous integration tool chain.
 
 <td colspan="1">Developer Experience</td>
 
-<td markdown="span">
+<td markdown="1">
 
 1.  Ask feedback from UI-developers, partners, customers, backend system administrators, API developers, business people.
 2.  Try to make API- interface as stable as possible according to the OpenAPI specification.
@@ -267,7 +267,7 @@ Setup API management publishing in the Continuous integration tool chain.
 
 <td colspan="1">Measure</td>
 
-<td markdown="span">
+<td markdown="1">
 
 1.  Get an API management tool with basic configurations and other analytics in place. Goal is to make sure you have detailed analytics on how the APIs are being used, what errors happen, and who is really using it. It's important to be able to learn, improve and diagnose errors quickly.
 2.  Setup dashboards and analytics and share data (even if just with links to dashboards) with your API -consumers and your backend system admins so that it's easy to see where the problems are, if any.
@@ -280,7 +280,7 @@ Setup API management publishing in the Continuous integration tool chain.
 
 <td colspan="1">Learn</td>
 
-<td markdown="span">
+<td markdown="1">
 
 Talk to the different stakeholders, participate in UI / client / backend service meetings and look at analytics to see what new features are needed, what improvements should be made. Take them to the API Canvas and start new round (continue to Prototyping -phase, Just Enough phase or Scaling -phase depending on the learnings).
 
@@ -322,7 +322,7 @@ For example
 
 <td>API Canvas (as input to MVA)</td>
 
-<td>
+<td markdown="1">
 
 1.  Are there multiple API Consumers starting to use the API?
 2.  Is the business model changing dramatically? For example price for using the API is going down or API is becoming otherwise much more popular?
@@ -335,7 +335,7 @@ For example
 
 <td>MVA</td>
 
-<td>
+<td markdown="1">
 
 1.  Any peak times coming in near future?
 
@@ -364,7 +364,7 @@ For example
 
 <td>Build</td>
 
-<td>
+<td markdown="1">
 
 1.  Make sure you have covered all critical areas with proper tests before optimizing any code or changing configurations for scaling.
 2.  Build modifyible and replacable modules, protected with API managment and API interfaces.
@@ -381,7 +381,7 @@ For example
 
 <td colspan="1">API Audit</td>
 
-<td markdown="span">
+<td markdown="1">
 
 Validate the prototype with [API Audit](4APIAudit).
 
@@ -405,7 +405,7 @@ Setup proper deployment orchestration since scaling usually causes multiple para
 
 <td colspan="1">Developer Experience</td>
 
-<td markdown="span">
+<td markdown="1">
 
 Response times should be lower after scaling or at least as good as before.
 
@@ -417,7 +417,7 @@ Response times should be lower after scaling or at least as good as before.
 
 <td colspan="1">Measure</td>
 
-<td markdown="span">
+<td markdown="1">
 
 1.  Keep an eye on response times, amount of errors (also client side 4xx) due to any problems with scaling.
 2.  Add Search Engine Optimization (SEO) capabilities to developer portal to see who visits and how many start using the APIs.
@@ -430,7 +430,7 @@ Response times should be lower after scaling or at least as good as before.
 <tr>
 
 <td colspan="1">Learn</td>
-<td markdown="span">
+<td markdown="1">
     
 Adjust your metrics to see new registrations by developers and how the amount of requests grows per API consumer segment.
 
