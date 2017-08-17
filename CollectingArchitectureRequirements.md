@@ -192,16 +192,19 @@ Scenarios in the context of Behaviour Driven Development mean a simple but compl
 For example placing an order in a webstore could be broken down to scenarios:
 
 *Scenario 1: normal order, process until payment*
+```cucumber
                 Given customer has entered his contact details, products, quanitities
                 And customer has selected payment method
                 And customer has chosen order confirmation method
                 When customer submits order
                 Then order is saved to ERP as preliminary order
                 And customer is directed to payment provider
-
+```
 *Scenario 2: normal order, payment has been processed*
+```cucumber
                 Given customer has submitted order
                 and customer has paid order in payment providers service
                 And customer has returned correctly to web store
                 Then order is saved to ERP as paid, waiting for delivery
                 and customer receives order confirmation with selected method
+```
