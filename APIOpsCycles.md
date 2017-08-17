@@ -1,10 +1,8 @@
-<ac:structured-macro ac:macro-id="76a19cff-bc09-499c-96c7-e2430e19eb0b" ac:name="toc" ac:schema-version="1"></ac:structured-macro>
+# APIOps Cycles
 
 ## Download the APIOps® Cycles Design Book and use the templates with your teams!
 
-Beta -version available in PDF and in Power Point -format for editing. 
-
-<ac:structured-macro ac:macro-id="0265c311-5e05-4271-bf14-ea6411877069" ac:name="view-file" ac:schema-version="1"><ac:parameter ac:name="name"><ri:attachment ri:filename="APIOPS Cycles Design Book 1.1-beta.pptx"></ri:attachment></ac:parameter><ac:parameter ac:name="height">250</ac:parameter></ac:structured-macro><ac:structured-macro ac:macro-id="05e15371-cf9b-46f7-8f3b-927a48f83411" ac:name="view-file" ac:schema-version="1"><ac:parameter ac:name="name"><ri:attachment ri:filename="APIOPS Cycles Design Book 1.1-beta.pdf"></ri:attachment></ac:parameter><ac:parameter ac:name="height">250</ac:parameter></ac:structured-macro>
+Beta -version available in [PDF](APIOPS Cycles Design Book 1.1-beta.pdf) and in [Power Point](APIOPS Cycles Design Book 1.1-beta.pptx) -format for editing. 
 
 ## What is Digia's APIOps Cycles model?
 
