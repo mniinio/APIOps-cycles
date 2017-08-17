@@ -117,7 +117,7 @@ Use nouns in plural as resource names e.g. `/products`.
 
 <td>X</td>
 
-<td> Standard use does not include a request body for GET -requests. Most standard based tools and coding libraries do not support having a body. Some older systems can't make GET -requests at all (only POST). Search queries with lots of search filters may end up having too long URLs (what is too long depends on the application limits, such as browsers).</td>
+<td markdown="1"> Standard use does not include a request body for GET -requests. Most standard based tools and coding libraries do not support having a body. Some older systems can't make GET -requests at all (only POST). Search queries with lots of search filters may end up having too long URLs (what is too long depends on the application limits, such as browsers).</td>
 
 </tr>
 
@@ -129,7 +129,8 @@ Use nouns in plural as resource names e.g. `/products`.
 
 <td></td>
 
-<td>Supported by most (but not all) API consumers. Can be used as alternative for all other verbs if you need to support old or exotic clients or run out of URL length with GETs. </td>
+<td markdown="1">
+Supported by most (but not all) API consumers. Can be used as alternative for all other verbs if you need to support old or exotic clients or run out of URL length with GETs. </td>
 
 </tr>
 
@@ -141,7 +142,8 @@ Use nouns in plural as resource names e.g. `/products`.
 
 <td></td>
 
-<td>Theory says this should only be used when client gives the resource identifier, usually e.g. file with a client given unique name. Use with care, as all clients do not support PUT. Support those clients by implementing POST and not requiring identifier so new resource will be created and identifier returned to the client in the response body</td>
+<td markdown="1">
+Theory says this should only be used when client gives the resource identifier, usually e.g. file with a client given unique name. Use with care, as all clients do not support PUT. Support those clients by implementing POST and not requiring identifier so new resource will be created and identifier returned to the client in the response body</td>
 
 </tr>
 
@@ -153,7 +155,8 @@ Use nouns in plural as resource names e.g. `/products`.
 
 <td>X</td>
 
-<td>Only for entire resource update, not partial, see above</td>
+<td markdown="1">
+Only for entire resource update, not partial, see above</td>
 
 </tr>
 
@@ -165,7 +168,8 @@ Use nouns in plural as resource names e.g. `/products`.
 
 <td></td>
 
-<td>Used with [JSON Patch](https://tools.ietf.org/html/rfc6902) message format. Use with care, as all clients do not support PATCH. Support those clients by implementing POST which can handle partial inputs, otherwise uses normal POST request body</td>
+<td markdown="1">
+Used with [JSON Patch](https://tools.ietf.org/html/rfc6902) message format. Use with care, as all clients do not support PATCH. Support those clients by implementing POST which can handle partial inputs, otherwise uses normal POST request body</td>
 
 </tr>
 
@@ -177,7 +181,8 @@ Use nouns in plural as resource names e.g. `/products`.
 
 <td></td>
 
-<td>Do not implement for collections if not absolutely sure to avoid accidental removal of multiple resources. DELETE has no request body, so identifiers can only be passed in the url. Should be repeatable with positive response.</td>
+<td markdown="1">
+Do not implement for collections if not absolutely sure to avoid accidental removal of multiple resources. DELETE has no request body, so identifiers can only be passed in the url. Should be repeatable with positive response.</td>
 
 </tr>
 
