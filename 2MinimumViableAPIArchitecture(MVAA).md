@@ -198,13 +198,9 @@ Validate the prototype with [API Audit](4APIAudit).
 <td markdown="1">
 
 1.  Stick to familiar architecture, when risks are small designs don't have to be heavy and perfect.
-
 2.  For example backend for an API can still be even a static file and some APIs or backend integrations can be replaced with an email.
-
 3.  Meet customer need in a few hours or days, not in months.
-
-4.  Do NOT think about scaling.  
-    -
+4.  Do NOT think about scaling.
 
 </td>
 
