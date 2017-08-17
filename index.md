@@ -12,7 +12,7 @@ title: APIOps&reg; Cycles table of contents
 		- [API design style guide](APIDesignStyleGuide)
 	- [4. API Audit](4APIAudit)
 	- [5. API lifecycle](5APILifecycle)
-	- [6. Developer (API consumer) program](6Developer-APIConsumer-Program)
+	- [6. Developer (API consumer) program](Developer-APIConsumer-Program)
 		- [API and Developer portal terms and conditions](APIAndDeveloperPortalTermsAndConditions)
 	- [7. Measuring APIs](7MeasuringAPIs)
 	- [API management key concepts](APIManagementKeyConcepts)
