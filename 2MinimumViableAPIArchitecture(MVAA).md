@@ -390,7 +390,7 @@ Validate the prototype with [API Audit](4APIAudit).
 
 <td colspan="1">API Lifecycle</td>
 
-<td colspan="1">
+<td markdown="span">
 
 Setup proper deployment orchestration since scaling usually causes multiple parallel environments. Make it possible to run test environment with parallel loads, rewrite tests if needed so they don't clash. 
 
@@ -402,7 +402,7 @@ Setup proper deployment orchestration since scaling usually causes multiple para
 
 <td colspan="1">Developer Experience</td>
 
-<td colspan="1">
+<td markdown="span">
 
 Response times should be lower after scaling or at least as good as before.
 
@@ -414,7 +414,7 @@ Response times should be lower after scaling or at least as good as before.
 
 <td colspan="1">Measure</td>
 
-<td colspan="1">
+<td markdown="span">
 
 1.  Keep an eye on response times, amount of errors (also client side 4xx) due to any problems with scaling.
 2.  Add Search Engine Optimization (SEO) capabilities to developer portal to see who visits and how many start using the APIs.
@@ -427,7 +427,11 @@ Response times should be lower after scaling or at least as good as before.
 <tr>
 
 <td colspan="1">Learn</td>
+<td markdown="span">
+    
+Adjust your metrics to see new registrations by developers and how the amount of requests grows per API consumer segment.
 
+</td>
 </tr>
 
 </tbody>
