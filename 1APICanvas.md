@@ -2,7 +2,7 @@ API Canvas is a tool to Visualize, Design and Test how to create value for custo
 
 Digia APIOps tools consists of two visual charts, **API Value Proposition Canvas** and **API Canvas**.
 
-The **Value Proposition Canvas** is composed to two parts, the **API Consumer View **and **API Provider View**.
+The **Value Proposition Canvas** is composed to two parts, the **API Consumer View** and **API Provider View**.
 
 With the **API Consumer View** you describe the tasks the consumer needs to achieve. Describe step by step tasks API consumer needs to achieve. Highlight your consumer **pains** which prevents or makes it difficult to get the task done. You can describe pains, risks and negative outcomes consumer want to avoid or dissatisfaction of existing solutions. Outline customer **gains** which describe how customers measure the success for job well done. In Gains section, describe concrete results, benefits, positive outcome and even aspirations which customer hopes to achieve. 
 
@@ -60,16 +60,15 @@ If you looked already at the API Canvas –template, you noticed the areas are n
 
 ### Value proposition (1)
 
-Summarize the "who, what, why" with one short sentence based on the fields D and E  and copy the feature fields D and E from the AVP Canvas to the **Value proposition (1) field **in API Canvas.
+Summarize the "who, what, why" with one short sentence based on the fields D and E  and copy the feature fields D and E from the AVP Canvas to the **Value proposition (1) field** in API Canvas.
 
 ### API name
 
 Copy the main API(s) you are now focused on creating/updating to the **API name field**
 
-### **API Consumer Segments (2)  
+### **API Consumer Segments (2)**
 
-
-You have now looked at the problem from at least one customer segments perspective.  Fill in **API Consumer segments (2): **what was the segment you thought about when doing the AVP Canvas? Who else could also use this API?. This is a good place to talk to the persons in charge of business developement and partner relationships. Don’t forget also marketing and vendor management people. If you find it helpful you can also list the end-user segments of the applications you need to support for the API.
+You have now looked at the problem from at least one customer segments perspective.  Fill in **API Consumer segments (2):** what was the segment you thought about when doing the AVP Canvas? Who else could also use this API?. This is a good place to talk to the persons in charge of business developement and partner relationships. Don’t forget also marketing and vendor management people. If you find it helpful you can also list the end-user segments of the applications you need to support for the API.
 
 ### **Developer relations (3)**
 
@@ -103,7 +102,7 @@ Think about partners in this case as internal and external people outside your t
 
 ### **Cost structure (9)**
 
-You can either **estimate the real costs** (which could be difficult at this stage before architecture has been designed or all the team assembled) **or set target based **on the profit margins defined by the revenue and cost-savingsin the Revenue streams –section. Remember the fixed monthly costs for architecture components and maintenance are probably the highest costs (unless your platform requires licenses). The variable costs will start to matter when your API has 1M+ users.
+You can either **estimate the real costs** (which could be difficult at this stage before architecture has been designed or all the team assembled) **or set target based** on the profit margins defined by the revenue and cost-savingsin the Revenue streams –section. Remember the fixed monthly costs for architecture components and maintenance are probably the highest costs (unless your platform requires licenses). The variable costs will start to matter when your API has 1M+ users.
 
 ### Next stop:
 
