@@ -6,7 +6,7 @@ Beta -version available in [PDF](APIOPS Cycles Design Book 1.1-beta.pdf) and in 
 
 ## What is Digia's APIOps Cycles model?
 
-> [<u>What is APIOps and why DevOps is not enough?</u>](http://what%20is%20apiops/)
+> [<u>What is APIOps and why DevOps is not enough?</u>](WhatIsAPIOps)
 
 We tried to keep Lean thinking in mind, as it is a very good management theory and the basis for DevOps. We took stock on our own experiences with integrations and other products and services development. We adjusted suitable methods together and made them API- and of course DevOps-friendly.
 
