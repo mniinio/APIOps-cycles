@@ -1,5 +1,6 @@
 ---
 title: API Audit
+permalink: /apiaudit/
 ---
 
 This check list is intended to be used as design guideline together with the [API design style guide](APIDesignStyleGuide) but also after implementation. It ensures the API meets best practice criteria for usability and security and can be published via API management to the API consumers.
