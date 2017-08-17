@@ -1,7 +1,7 @@
 ## ToC
 
-- [APIOps Cycles](APIOpsCycles.md)
-	- [0 What is APIOps?](0WhatIsAPIOps)
+- [APIOps Cycles](APIOpsCycles)
+	- [0 What is APIOps?](WhatIsAPIOps)
 	- [1. API Canvas](1APICanvas)
 		- [API Business models](APIBusinessModels)
 	- [2. Minimum Viable API Architecture (MVAA)](2MinimumViableAPIArchitecture(MVAA))
