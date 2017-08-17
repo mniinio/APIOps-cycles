@@ -1,3 +1,8 @@
+---
+title: API Design Style Guide
+slug: APIDesignStyleGuide
+---
+
 ## Format of API specification
 
 Use the most recent OpenAPI version supported by the API management platform for describing your API
