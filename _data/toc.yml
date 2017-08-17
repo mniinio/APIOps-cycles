@@ -1,0 +1,25 @@
+toc:
+  - title: Getting started
+    subfolderitems:
+      - page: What is APIOps® Cycles?
+        url: /whatisapiops/
+  - title: The process and method
+    subfolderitems:
+      - page: 1. API Canvas
+        url: /apicanvas/
+      - page: 2. Minimum Viable API Architecture (MVAA)
+        url: /MinimumViableAPIArchitecture-MVAA/
+      - page: 3. Build APIs
+        url: /buildapis/
+  - title: Resource material
+    subfolderitems:
+      - page: API Business models
+        url: /APIBusinessModels
+      - page: Collecting architecture requirements
+        url: /CollectingArchitectureRequirements
+      - page: API design style guide
+        url: /APIDesignStyleGuide
+      - page: API and Developer portal terms and conditions
+        url: /APIAndDeveloperPortalTermsAndConditions/
+      - page: API management key concepts
+        url: /APIManagementKeyConcepts
