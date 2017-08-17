@@ -37,16 +37,16 @@ As we are treating our APIs as digital products which can be bought, sold and 
 
 Assessing API opportunities:
 
-1.  _Exactly what problem will this API or endpoint solve? (value proposition)_
-2.  _For whom do we solve that problem? (target market)_
-3.  _How big is the opportunity? (market size)_
-4.  _What alternatives are out there? (competitive landscape)_
-5.  _Why are we best suited to pursue this? (our differentiator)_
-6.  _Why now? (market window)_
-7.  _How will we get this API product to market? (go-to-market strategy)_
-8.  _How will we measure success/make money from this product? (metrics/revenue strategy)_
-9.  _What factors are critical to success? (solution requirements)_
-10.  _Given the above, what’s the recommendation? (go or no-go)_
+1.  Exactly what problem will this API or endpoint solve? (value proposition)
+2.  For whom do we solve that problem? (target market)
+3.  How big is the opportunity? (market size)
+4.  What alternatives are out there? (competitive landscape)
+5.  Why are we best suited to pursue this? (our differentiator)
+6.  Why now? (market window)
+7.  How will we get this API product to market? (go-to-market strategy)
+8.  How will we measure success/make money from this product? (metrics/revenue strategy)
+9.  What factors are critical to success? (solution requirements)
+10. Given the above, what’s the recommendation? (go or no-go)
 
 _By Marty Cagan, Silicon Valley and MindTheProduct -network guru of product management — Taken from: [_http://svpg.com/assessing-product-opportunities/_](http://svpg.com/assessing-product-opportunities/)
 
@@ -60,78 +60,59 @@ Our company may also act as an API consumer.
 
 ### Typical API business models we use for opportunity assessment
 
-|  | Internal cost optimization | Indirect value | Additional sales | API consumer pays | API consumer is paid
------------- | ------------ | ------------- | ------------- | ------------- | -------------
-**Maturity** | level 1 - 2 | level 2 - 3 | level 3 | level 4 | level 4
-**Revenue model** | Market share / ROI | Restricted free use "Freemium" model or for specific partner uses | APIs are included in the premium product/service packages or offered free for key customers | Pay-per-use or according to added value | Revenue sharing, %-based partnership
-**Opportunities** | 
-*   Reacting faster to market changes
-*   Faster technology adoption
-*   Shorter development time: distributed simultaneous development, promoting reuse
-*   As part of cloud adoption strategy: microservices, SaaS adoption, IoT, AI, BigData etc.
-
-</td>
-
-<td colspan="1">
-
-*   Brand knowledge, marketing
-*   Developer commitment
-*   New channel, leads
-
-</td>
-
-<td colspan="1">
-
-*   Alternative to customer-specific customized integrations
-*   Increasing customer commitment and engagement
-*   APIs add value of traditional products and services for customers
-
-</td>
-
-<td colspan="1">
-
-*   APIs as "Commodity"
-*   Traditional customer relationship, not a partnership
-*   Payments received are used to cover costs of capacity and API and platform product development
-
-</td>
-
-<td colspan="1">
-
-*   Growth in customer volumes, getting in to partners' customer networks
-*   Additional value to existing customers
-*   Sharing data and functionality with partners
-
-</td>
-
-</tr>
-
+<table><colgroup><col /></colgroup>
+<tbody>
 <tr>
-
+<th colspan="1">&nbsp;</th>
+<th colspan="1">Internal cost optimization</th>
+<th colspan="1">Indirect value</th>
+<th colspan="1">Additional sales</th>
+<th colspan="1">API consumer pays</th>
+<th colspan="1">API consumer is paid</th></tr>
+<tr>
+<th colspan="1">Revenue model</th>
+<td colspan="1">
+<p>Market share</p>
+<p>ROI</p></td>
+<td colspan="1">Restricted free use &quot;Freemium&quot; model or for specific partner uses</td>
+<td colspan="1">APIs are included in the premium product/service packages or offered free for key customers</td>
+<td colspan="1">Pay-per-use or according to added value</td>
+<td colspan="1">Revenue sharing, %-based partnership</td></tr>
+<tr>
+<th colspan="1">Opportunities</th>
+<td colspan="1">
+<ul style="list-style-type: square;">
+<li>Reacting faster to market changes</li>
+<li>Faster technology adoption</li>
+<li>Shorter development time: distributed simultaneous development, promoting reuse</li>
+<li>As part of cloud adoption strategy: microservices, SaaS adoption, IoT, AI, BigData etc.</li></ul></td>
+<td colspan="1">
+<ul style="list-style-type: square;">
+<li>Brand knowledge, marketing</li>
+<li>Developer commitment</li>
+<li>New channel, leads</li></ul></td>
+<td colspan="1">
+<ul style="list-style-type: square;">
+<li>Alternative to customer-specific customized integrations</li>
+<li>Increasing customer commitment and engagement</li>
+<li>APIs add value of&nbsp;traditional products and services for customers</li></ul></td>
+<td colspan="1">
+<ul style="list-style-type: square;">
+<li>APIs as &quot;Commodity&quot;</li>
+<li>Traditional customer relationship, not a partnership</li>
+<li>Payments received are used to cover costs of capacity and API and platform product development</li></ul></td>
+<td colspan="1">
+<ul style="list-style-type: square;">
+<li>Growth in customer volumes, getting in to partners' customer networks</li>
+<li>Additional value to existing customers</li>
+<li>Sharing data and functionality with partners</li></ul></td></tr>
+<tr>
 <th colspan="1">Typical API consumers = Developer community</th>
-
 <td colspan="1">Internal consumers: Analytics platforms, CRM/ERP and other business applications, Digital services</td>
-
 <td colspan="1">
-
-Marketing partners
-
-For example startups or educational organizations can belong to this category before becoming actual reselling or innovation partners
-
-</td>
-
+<p>Marketing partners</p>
+<p>For example startups or educational organizations&nbsp;can belong to this category before becoming actual&nbsp;reselling or&nbsp;innovation partners</p></td>
 <td colspan="1">Innovation partners, customers, partners</td>
-
 <td colspan="1">
-
-Customers to whom we offer APIs as our main products
-
-</td>
-
-<td colspan="1">Innovation partners, resellers, supply chain partners</td>
-
-</tr>
-
-</tbody>
-
-</table>
+<p>Customers to whom&nbsp;we offer APIs as our main products</p></td>
+<td colspan="1">Innovation partners, resellers, supply chain partners</td></tr></tbody></table>
