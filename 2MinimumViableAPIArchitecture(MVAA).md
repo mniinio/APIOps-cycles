@@ -45,7 +45,7 @@ When going through the APIOPS Cycle in the Prototype phase of building (an) API
 
 <td>API Canvas (as input to MVA)</td>
 
-<td markdown="span">
+<td markdown="1">
 
 1.  Who are the first API -consuming users? Do they or their platform have special requirements?
 2.  What is their key pain, what problem does this API solve?
@@ -60,7 +60,7 @@ When going through the APIOPS Cycle in the Prototype phase of building (an) API
 
 <td>MVA</td>
 
-<td markdown="span">
+<td markdown="1">
 
 1.  Concentrate on information architecture and interface design.
 2.  Add only the endpoints and fields you absolutely are sure that they are needed for the first consumers. If there is no clear answer if something should be added, leave it out. It's better for versioning, no one will start using it and depending on it and changes are kept to minimum later.
@@ -74,7 +74,7 @@ When going through the APIOPS Cycle in the Prototype phase of building (an) API
 
 <td>Build</td>
 
-<td markdown="span">
+<td markdown="1">
 
 1.  **No coding required.**
 
@@ -92,7 +92,7 @@ When going through the APIOPS Cycle in the Prototype phase of building (an) API
 
 <td colspan="1">API Audit</td>
 
-<td markdown="span">
+<td markdown="1">
 
 Validate the prototype with [API Audit](4APIAudit).
 
@@ -104,7 +104,7 @@ Validate the prototype with [API Audit](4APIAudit).
 
 <td colspan="1">API Lifecycle</td>
 
-<td markdown="span">
+<td markdown="1">
 
 1.  OpenAPI specification including schemas can be published in API management and seen and tried out by future API -consumers easily.
 2.  Publishing in API management manually is quick in this stage and ensures from first days that the specification is suitable for API management tool.
@@ -117,7 +117,7 @@ Validate the prototype with [API Audit](4APIAudit).
 
 <td colspan="1">Developer Experience</td>
 
-<td markdown="span">
+<td markdown="1">
 
 1.  Ask feedback from UI-developers, partners, customers, backend system administrators, API developers, business people.
 2.  At this stage fixing is really fast and easy.
@@ -130,7 +130,7 @@ Validate the prototype with [API Audit](4APIAudit).
 
 <td colspan="1">Measure</td>
 
-<td markdown="span">
+<td markdown="1">
 
 1.  Measuring is mostly qualitative at this stage (happy / not happy stakeholders).
 2.  Processing time in UIs/clients using the API can be measured, it can have major effect in the design.
@@ -144,7 +144,7 @@ Validate the prototype with [API Audit](4APIAudit).
 
 <td colspan="1">Learn</td>
 
-<td markdown="span">
+<td markdown="1">
 
 1.  Prototype API can be used as backend for client development, with no coding done yet for the API itself, ask feedback actively and participate in UI/client design sessions if possible.
 2.  Stay in the prototype phase until you are sure all those few attributes and endpoints have as standard names and values as possible, but only those few fields and endpoints which were crucial.
