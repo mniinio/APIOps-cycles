@@ -1,6 +1,5 @@
 ---
-title: 4 API Audit
-slug: 4APIAudit
+title: API Audit
 ---
 
 This check list is intended to be used as design guideline together with the [API design style guide](APIDesignStyleGuide) but also after implementation. It ensures the API meets best practice criteria for usability and security and can be published via API management to the API consumers.
@@ -29,79 +28,79 @@ OWASP -security criteria refers to the [OWASP security cheat sheet](https://www.
 
 <tr>
 
-<td colspan="1">API management</td>
+<td markdown="1">API management</td>
 
-<td colspan="1">Has a version of the API already been published via API management?</td>
-
-</tr>
-
-<tr>
-
-<td colspan="1">Is it visible in a Developer Portal?</td>
+<td markdown="1">Has a version of the API already been published via API management?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Have any users already subscribed to the API?</td>
+<td markdown="1">Is it visible in a Developer Portal?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Are there rate limits enforced to the API consumers when using the API?</td>
-
-<td colspan="1">yes</td>
+<td markdown="1">Have any users already subscribed to the API?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Is it possible for the API consumers to use the API without going via the API gateway governed by the API management?</td>
+<td markdown="1">Are there rate limits enforced to the API consumers when using the API?</td>
+
+<td markdown="1">yes</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">API specification</td>
-
-<td colspan="1">Is there a standard specification file available about the API?</td>
+<td markdown="1">Is it possible for the API consumers to use the API without going via the API gateway governed by the API management?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Is specification supported by the API management platform? (Open API is supported by most, RAML and apis.json are supported by some)</td>
+<td markdown="1">API specification</td>
+
+<td markdown="1">Is there a standard specification file available about the API?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Is the specification maintained automatically when changes are done to the API implementation?</td>
+<td markdown="1">Is specification supported by the API management platform? (Open API is supported by most, RAML and apis.json are supported by some)</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Is the specification validated against the specification standard?</td>
+<td markdown="1">Is the specification maintained automatically when changes are done to the API implementation?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Does the specification contain schemas for the requests and responses?</td>
+<td markdown="1">Is the specification validated against the specification standard?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Does the specification contain examples in standard format for the requests and responses? (API management platforms and other tools can process the examples automatically and show them in documentation or used them for request mocking to help developer learn the API)</td>
+<td markdown="1">Does the specification contain schemas for the requests and responses?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Are the schemas and examples validated against schema (for example JSON schema)?</td>
+<td markdown="1">Does the specification contain examples in standard format for the requests and responses? (API management platforms and other tools can process the examples automatically and show them in documentation or used them for request mocking to help developer learn the API)</td>
+
+</tr>
+
+<tr>
+
+<td markdown="1">Are the schemas and examples validated against schema (for example JSON schema)?</td>
 
 </tr>
 
@@ -109,7 +108,7 @@ OWASP -security criteria refers to the [OWASP security cheat sheet](https://www.
 
 <td>Protocol</td>
 
-<td>HTTPS (in special cases HTTP might be acceptable, write explanation in comment)? (If no, then this audit doesn't fit)</td>
+<td markdown="1">HTTPS (in special cases HTTP might be acceptable, write explanation in comment)? (If no, then this audit doesn't fit)</td>
 
 </tr>
 
@@ -117,43 +116,43 @@ OWASP -security criteria refers to the [OWASP security cheat sheet](https://www.
 
 <td>URIs</td>
 
-<td>Is the domain name sensible for this API: is the API published under the organizations official domain?</td>
+<td markdown="1">Is the domain name sensible for this API: is the API published under the organizations official domain?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Is the visible domain which the API consumers see when using the API shared with other APIs? </td>
+<td markdown="1">Is the visible domain which the API consumers see when using the API shared with other APIs? </td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Endpoints are named after resources, in plural? Example /projects</td>
+<td markdown="1">Endpoints are named after resources, in plural? Example /projects</td>
 
 </tr>
 
 <tr>
 
-<td>Endpoints are max 2-resources deep? Example /projects/123/tasks/345</td>
+<td markdown="1">Endpoints are max 2-resources deep? Example /projects/123/tasks/345</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Other naming styles in style guide have been applied?</td>
+<td markdown="1">Other naming styles in style guide have been applied?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">API has versioning?</td>
+<td markdown="1">API has versioning?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">
+<td markdown="1">
 
 Versioning strategy is best for the selected API management platform and for the primary API consumers? Major version is in URI (only if API management platform doesn't support versioning based on client subscription)
 
@@ -165,13 +164,13 @@ Versioning strategy is best for the selected API management platform and for th
 
 <td>Processing</td>
 
-<td>Stateless processing?</td>
+<td markdown="1">Stateless processing?</td>
 
 </tr>
 
 <tr>
 
-<td>Any types of processing requiring special checking or handling: asynchronous, events, subscribe-model?</td>
+<td markdown="1">Any types of processing requiring special checking or handling: asynchronous, events, subscribe-model?</td>
 
 </tr>
 
@@ -179,35 +178,35 @@ Versioning strategy is best for the selected API management platform and for th
 
 <td>HTTP-verbs</td>
 
-<td>GET is used only for searching and viewing resources</td>
+<td markdown="1">GET is used only for searching and viewing resources</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">GET -requests don't have request bodies</td>
+<td markdown="1">GET -requests don't have request bodies</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">GET requests with longest endpoint-hierarchy and multiple query parameters with long values don't exceed 2000 of URI length? (Some older clients and browsers may have this type of limit, although it is not official limit and newer clients can handle it well)</td>
+<td markdown="1">GET requests with longest endpoint-hierarchy and multiple query parameters with long values don't exceed 2000 of URI length? (Some older clients and browsers may have this type of limit, although it is not official limit and newer clients can handle it well)</td>
 
 </tr>
 
 <tr>
 
-<td>POST is used for creating and updating data?</td>
+<td markdown="1">POST is used for creating and updating data?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">
+<td markdown="1">
 
 POST is used only in standard ways.
 
-<span>(Non-standard ways would mean it is used for submitting long search parameters, as alternative to PUT or as alternative to GET.These should be suppported only if important API consumers have specific problems dealing with the standard verbs.)</span>
+(Non-standard ways would mean it is used for submitting long search parameters, as alternative to PUT or as alternative to GET.These should be suppported only if important API consumers have specific problems dealing with the standard verbs.)
 
 </td>
 
@@ -215,29 +214,29 @@ POST is used only in standard ways.
 
 <tr>
 
-<td>PUT is used to create or replace entire resource?</td>
+<td markdown="1">PUT is used to create or replace entire resource?</td>
 
 </tr>
 
 <tr>
 
-<td>DELETE is used only to remove a resource?</td>
+<td markdown="1">DELETE is used only to remove a resource?</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">Whitelisting: POST, PUT and DELETE are only available for resources which API consumer is allowed to manipulate?</td>
+<td markdown="1">Whitelisting: POST, PUT and DELETE are only available for resources which API consumer is allowed to manipulate?</td>
 
-<td colspan="1">yes</td>
+<td markdown="1">yes</td>
 
 </tr>
 
 <tr>
 
-<td>HTTP -status codes</td>
+<td markdown="1">HTTP -status codes</td>
 
-<td>
+<td markdown="1">
 
 404 wrong url
 
@@ -247,21 +246,21 @@ POST is used only in standard ways.
 
 <tr>
 
-<td colspan="1">400 bad request from the client, for example a required query parameter was missing</td>
+<td markdown="1">400 bad request from the client, for example a required query parameter was missing</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">400 -responses have additional information of the specific error (for example missing required attribute)</td>
+<td markdown="1">400 -responses have additional information of the specific error (for example missing required attribute)</td>
 
 </tr>
 
 <tr>
 
-<td colspan="1">401 -response is used when API consumer is using wrong credentials</td>
+<td markdown="1">401 -response is used when API consumer is using wrong credentials</td>
 
-<td colspan="1">yes</td>
+<td markdown="1">yes</td>
 
 </tr>
 
