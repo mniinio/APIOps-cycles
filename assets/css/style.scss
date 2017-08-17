@@ -33,3 +33,12 @@ $hr-border-color: #eff0f1 !default;
     margin: 0;
     padding: 0.77778rem 0;
 }
+
+nav {
+    float: left;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
