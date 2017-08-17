@@ -1,0 +1,16 @@
+## ToC
+
+- [APIOps Cycles](APIOpsCycles.md)
+	- [0 What is APIOps?](0WhatIsAPIOps)
+	- [1. API Canvas](1APICanvas)
+		- [API Business models](APIBusinessModels)
+	- [2. Minimum Viable API Architecture (MVAA)](2MinimumViableAPIArchitecture(MVAA))
+		- [Collecting architecture requirements](CollectingArchitectureRequirements)
+	- [3. Build APIs](3BuildAPIs.md)
+		- [API design style guide](APIDesignStyleGuide)
+	- [4. API Audit](4APIAudit)
+	- [5. API lifecycle](5APILifecycle)
+	- [6. Developer (API consumer) program](6Developer(APIConsumer)Program)
+		- [API and Developer portal terms and conditions](APIAndDeveloperPortalTermsAndConditions)
+	- [7. Measuring APIs](7MeasuringAPIs)
+	- [API management key concepts](APIManagementKeyConcepts)
