@@ -6,9 +6,9 @@ permalink: /buildapis/
 
 ## Before starting to build APIs
 
-*   [API Canvas](1APICanvas) - APIs business requirements, API consumers, services needing to be built and the existing services available as API canvas?
-*   [Minimum Viable API Architecture (MVAA)](2MinimumViableAPIArchitecture-MVAA) - non-functional and funcational requirements should have been gathered using the design templates?
-*   Also check the [API Audit](4APIAudit) and [API design style guide](APIDesignStyleGuide) for guidelines on implementation
+*   [API Canvas](apicanvas) - APIs business requirements, API consumers, services needing to be built and the existing services available as API canvas?
+*   [Minimum Viable API Architecture (MVAA)](MinimumViableAPIArchitecture-MVAA) - non-functional and funcational requirements should have been gathered using the design templates?
+*   Also check the [API Audit](apiaudit) and [API design style guide](APIDesignStyleGuide) for guidelines on implementation
 *   Design application architecture based on the environment where the API -backends are build. Estimate runtime costs at this point.
 *   Setup automatical deployments, test-automation and API publishing pipelines (this requires own guide when environment and API management platform has been selected)
 
