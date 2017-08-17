@@ -1,4 +1,7 @@
-## <ac:structured-macro ac:macro-id="0f08f556-5f3a-42a7-9183-9057616a91c0" ac:name="toc" ac:schema-version="1"></ac:structured-macro>
+---
+title: API Management Key concepts
+slug: APIManagementKeyConcepts
+---
 
 ## Value proposition
 
