@@ -1,5 +1,6 @@
 ---
 title: What is APIOps&reg;
+
 permalink: /whatisapiops/
 ---
 
