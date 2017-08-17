@@ -1,3 +1,8 @@
+---
+title: Terms and conditions of use
+slug: APIAndDeveloperPortalTermsAndConditions
+---
+
 # **Terms and conditions of use**
 
 ## **Terms and conditions of use of the API developer portal service**
