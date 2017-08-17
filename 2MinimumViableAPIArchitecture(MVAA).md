@@ -1,6 +1,6 @@
 ---
 title: 2 Minimum Viable API Architecture
-slug: 2MinimumViableAPIArchitecture-MVAA
+permalink: 2MinimumViableAPIArchitecture-MVAA
 ---
 
 ## Overview of the MVAA method for designing architecture
