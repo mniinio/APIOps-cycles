@@ -1,5 +1,5 @@
 ---
-title: 1. API Canvas
+title: API Canvas
 slug: APICanvas
 ---
 
