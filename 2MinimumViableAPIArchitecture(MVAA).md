@@ -17,9 +17,9 @@ Phases of Minimum Viable Architecture are:
 
 ## Before you enter any of the actual MVAA design phases
 
-*   Make sure the [1\. API Canvas](1APICanvas) has been created using the templates in the [APIOps Cycles](APIOpsCycles)
+*   Make sure the [API Canvas](1APICanvas) has been created using the [templates](APIOpsCycles)
 
-*   Collect [Collecting architecture requirements](CollectingArchitectureRequirements) using the templates in the [APIOps Cycles](APIOpsCycles)
+*   Collect [Collecting architecture requirements](CollectingArchitectureRequirements) using the [templates](APIOpsCycles)
 
 ## Prototype
 
@@ -29,131 +29,37 @@ When going through the APIOPS Cycle in the Prototype phase of building (an) API
 
 
 
-<table>
-
-<tbody>
-
-<tr>
-
-<th>APIOPS Cycle</th>
-
-<th>Recommended tasks</th>
-
-</tr>
-
-<tr>
-
-<td>API Canvas (as input to MVA)</td>
-
-<td>
-
+|| APIOPS Cycle || Recommended tasks || 
+| API Canvas (as input to MVA) |  
 1.  Who are the first API -consuming users? Do they or their platform have special requirements?
 2.  What is their key pain, what problem does this API solve?
 3.  What data or logic they absolutely must have to publish their service?
-4.  How can the API -consumers be contacted for feedback on the designs?
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>MVA</td>
-
-<td>
-
+4.  How can the API -consumers be contacted for feedback on the designs? |
+| MVA | 
 1.  Concentrate on information architecture and interface design.
 2.  Add only the endpoints and fields you absolutely are sure that they are needed for the first consumers. If there is no clear answer if something should be added, leave it out. It's better for versioning, no one will start using it and depending on it and changes are kept to minimum later.
-3.  Design with the API Audit criterias in mind, using style guide as your guide line.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>Build</td>
-
-<td>
-
+3.  Design with the API Audit criterias in mind, using style guide as your guide line. |
+| Build |
 1.  **No coding required.**
 2.  OpenAPI specification only, with data schemas, a few example requests and responses.
 3.  if API management exists already then design and publish OpenAPI specification using that. **Tip: create example JSON requests and responses first, you can generate a schema from the examples automatically. Examples are much more clear to many stakeholders than a very correctly created schema.**
-4.  If needed then OpenAPI specification using mocking service, no actual code required, but result is runnable.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td colspan="1">API Audit</td>
-
-<td colspan="1">
-
-Validate the prototype with <ac:link><ri:page ri:content-title="4\. API Audit"><ac:plain-text-link-body></ac:plain-text-link-body></ri:page></ac:link>.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td colspan="1">API Lifecycle</td>
-
-<td colspan="1">
-
+4.  If needed then OpenAPI specification using mocking service, no actual code required, but result is runnable. |
+| API Audit | 
+Validate the prototype with [API Audit](4APIAudit) 
+| API Lifecycle |
 1.  OpenAPI specification including schemas can be published in API management and seen and tried out by future API -consumers easily.
-2.  Publishing in API management manually is quick in this stage and ensures from first days that the specification is suitable for API management tool.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td colspan="1">Developer Experience</td>
-
-<td colspan="1">
-
+2.  Publishing in API management manually is quick in this stage and ensures from first days that the specification is suitable for API management tool. |
+| Developer Experience | 
 1.  Ask feedback from UI-developers, partners, customers, backend system administrators, API developers, business people.
-2.  At this stage fixing is really fast and easy.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td colspan="1">Measure</td>
-
-<td colspan="1">
-
+2.  At this stage fixing is really fast and easy. |
+| Measure | 
 1.  Measuring is mostly qualitative at this stage (happy / not happy stakeholders).
 2.  Processing time in UIs/clients using the API can be measured, it can have major effect in the design.
-3.  Work estimates and costs for implementing the API can be made more accurately.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td colspan="1">Learn</td>
-
-<td colspan="1">
-
+3.  Work estimates and costs for implementing the API can be made more accurately. |
+| Learn |
 1.  Prototype API can be used as backend for client development, with no coding done yet for the API itself, ask feedback actively and participate in UI/client design sessions if possible.
 2.  Stay in the prototype phase until you are sure all those few attributes and endpoints have as standard names and values as possible, but only those few fields and endpoints which were crucial.
-3.  **Fix the design according to feedback until about 80% of people around you are happy about it, then move on to "Just Enough" -phase.**
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+3.  **Fix the design according to feedback until about 80% of people around you are happy about it, then move on to "Just Enough" -phase.** |
 
 
 
