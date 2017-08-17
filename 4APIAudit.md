@@ -3,7 +3,7 @@ title: 4 API Audit
 slug: 4APIAudit
 ---
 
-This check list is intended to be used as design guideline together with the <ac:link><ri:page ri:content-title="API design style guide"><ac:plain-text-link-body></ac:plain-text-link-body></ri:page></ac:link> but also after implementation. It ensures the API meets best practice criteria for usability and security and can be published via API management to the API consumers.
+This check list is intended to be used as design guideline together with the [API design style guide](APIDesignStyleGuide) but also after implementation. It ensures the API meets best practice criteria for usability and security and can be published via API management to the API consumers.
 
 Any "No" answers must have an explanation in the comment field. Those implementations should be fixed as soon as possible or as a minimum should be peer-reviewed carefully to validate the reason.
 
