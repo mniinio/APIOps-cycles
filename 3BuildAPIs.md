@@ -1,3 +1,8 @@
+---
+title: 3 Build APIs
+slug: 3BuildAPIs
+---
+
 ## Before starting to build APIs
 
 *   <ac:link><ri:page ri:content-title="1\. API Canvas"></ri:page></ac:link> - APIs business requirements, API consumers, services needing to be built and the existing services available as API canvas?
