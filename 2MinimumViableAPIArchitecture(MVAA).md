@@ -17,9 +17,9 @@ Phases of Minimum Viable Architecture are:
 
 ## Before you enter any of the actual MVAA design phases
 
-*   Make sure the [API Canvas](1APICanvas) has been created using the [templates](APIOpsCycles)
+*   Make sure the [API Canvas](1APICanvas) has been created using the [templates](APIOpsCycles)
 
-*   Collect [architecture requirements](CollectingArchitectureRequirements) using the [templates](APIOpsCycles)
+*   Collect [architecture requirements](CollectingArchitectureRequirements) using the [templates](APIOpsCycles)
 
 ## Prototype
 
@@ -29,30 +29,131 @@ When going through the APIOPS Cycle in the Prototype phase of building (an) API
 
 
 
-| APIOPS Cycle | Recommended tasks |
-| --- | --- |
-| API Canvas (as input to MVA) |  1.  Who are the first API -consuming users? Do they or their platform have special requirements?
+<table>
+
+<tbody>
+
+<tr>
+
+<th>APIOPS Cycle</th>
+
+<th>Recommended tasks</th>
+
+</tr>
+
+<tr>
+
+<td>API Canvas (as input to MVA)</td>
+
+<td>
+
+1.  Who are the first API -consuming users? Do they or their platform have special requirements?
 2.  What is their key pain, what problem does this API solve?
 3.  What data or logic they absolutely must have to publish their service?
-4.  How can the API -consumers be contacted for feedback on the designs? |
-| MVA | 1.  Concentrate on information architecture and interface design.
+4.  How can the API -consumers be contacted for feedback on the designs?
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>MVA</td>
+
+<td>
+
+1.  Concentrate on information architecture and interface design.
 2.  Add only the endpoints and fields you absolutely are sure that they are needed for the first consumers. If there is no clear answer if something should be added, leave it out. It's better for versioning, no one will start using it and depending on it and changes are kept to minimum later.
-3.  Design with the API Audit criterias in mind, using style guide as your guide line. |
-| Build | 1.  **No coding required.**
-2.  OpenAPI specification only, with data schemas, a few example requests and responses.
+3.  Design with the API Audit criterias in mind, using style guide as your guide line.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>Build</td>
+
+<td markdown="span">
+
+1.  **No coding required.**
+2.  OpenAPI specification only, with data schemas, a few example requests and responses.
 3.  if API management exists already then design and publish OpenAPI specification using that. **Tip: create example JSON requests and responses first, you can generate a schema from the examples automatically. Examples are much more clear to many stakeholders than a very correctly created schema.**
-4.  If needed then OpenAPI specification using mocking service, no actual code required, but result is runnable. |
-| API Audit | Validate the prototype with [API Audit](4APIAudit) 
-| API Lifecycle | 1.  OpenAPI specification including schemas can be published in API management and seen and tried out by future API -consumers easily.
-2.  Publishing in API management manually is quick in this stage and ensures from first days that the specification is suitable for API management tool. |
-| Developer Experience | 1.  Ask feedback from UI-developers, partners, customers, backend system administrators, API developers, business people.
-2.  At this stage fixing is really fast and easy. |
-| Measure | 1.  Measuring is mostly qualitative at this stage (happy / not happy stakeholders).
+4.  If needed then OpenAPI specification using mocking service, no actual code required, but result is runnable.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">API Audit</td>
+
+<td markdown="span">
+
+Validate the prototype with [API Audit](4APIAudit).
+
+</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">API Lifecycle</td>
+
+<td markdown="span">
+
+1.  OpenAPI specification including schemas can be published in API management and seen and tried out by future API -consumers easily.
+2.  Publishing in API management manually is quick in this stage and ensures from first days that the specification is suitable for API management tool.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">Developer Experience</td>
+
+<td markdown="span">
+
+1.  Ask feedback from UI-developers, partners, customers, backend system administrators, API developers, business people.
+2.  At this stage fixing is really fast and easy.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">Measure</td>
+
+<td markdown="span">
+
+1.  Measuring is mostly qualitative at this stage (happy / not happy stakeholders).
 2.  Processing time in UIs/clients using the API can be measured, it can have major effect in the design.
-3.  Work estimates and costs for implementing the API can be made more accurately. |
-| Learn | 1.  Prototype API can be used as backend for client development, with no coding done yet for the API itself, ask feedback actively and participate in UI/client design sessions if possible.
+3.  Work estimates and costs for implementing the API can be made more accurately.
+
+</td>
+
+</tr>
+
+<tr>
+
+<td colspan="1">Learn</td>
+
+<td markdown="span">
+
+1.  Prototype API can be used as backend for client development, with no coding done yet for the API itself, ask feedback actively and participate in UI/client design sessions if possible.
 2.  Stay in the prototype phase until you are sure all those few attributes and endpoints have as standard names and values as possible, but only those few fields and endpoints which were crucial.
-3.  **Fix the design according to feedback until about 80% of people around you are happy about it, then move on to "Just Enough" -phase.** |
+3.  **Fix the design according to feedback until about 80% of people around you are happy about it, then move on to "Just Enough" -phase.**
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
 
 
 
@@ -78,9 +179,9 @@ When going through the APIOPS Cycle in the Prototype phase of building (an) API
 
 <td>API Canvas (as input to MVA)</td>
 
-<td>
+<td markdown="span">
 
-1.  What platform are the API consuming clients building their services to? Where is it physically located? What special requirements does it have ([<u>f.eg</u>](http://f.eg/). JSON as data format, can use headers, can use all http -headers, authentication).
+1.  What platform are the API consuming clients building their services to? Where is it physically located? What special requirements does it have e.g. JSON as data format, can use headers, can use all http -headers, authentication).
 2.  What are the systems providing data or logic as backend to this API? With what technology are they built? Where is it physically located? What special requirements does it have (data formats, authentication, interface specification, load restrictions).
 
 </td>
@@ -125,9 +226,9 @@ When going through the APIOPS Cycle in the Prototype phase of building (an) API
 
 <td colspan="1">API Audit</td>
 
-<td colspan="1">
+<td markdown="span">
 
-Validate the build with <ac:link><ri:page ri:content-title="4\. API Audit"><ac:plain-text-link-body></ac:plain-text-link-body></ri:page></ac:link>.
+Validate the prototype with [API Audit](4APIAudit).
 
 </td>
 
@@ -137,7 +238,7 @@ Validate the build with <ac:link><ri:page ri:content-title="4\. API Audit"><ac:p
 
 <td colspan="1">API Lifecycle</td>
 
-<td colspan="1">
+<td markdown="span">
 
 Setup API management publishing in the Continuous integration tool chain.
 
@@ -149,10 +250,10 @@ Setup API management publishing in the Continuous integration tool chain.
 
 <td colspan="1">Developer Experience</td>
 
-<td colspan="1">
+<td markdown="span">
 
 1.  Ask feedback from UI-developers, partners, customers, backend system administrators, API developers, business people.
-2.  Try to make API- interface as stable as possible according to the OpenAPI specification.
+2.  Try to make API- interface as stable as possible according to the OpenAPI specification.
 3.  Actual service implementation can be less pretty and less modular and not built for scaling, but you should be able to replace bigger pieces with smaller pieces or other implementation later at leats by re-writing the code.
 
 </td>
@@ -163,7 +264,7 @@ Setup API management publishing in the Continuous integration tool chain.
 
 <td colspan="1">Measure</td>
 
-<td colspan="1">
+<td markdown="span">
 
 1.  Get an API management tool with basic configurations and other analytics in place. Goal is to make sure you have detailed analytics on how the APIs are being used, what errors happen, and who is really using it. It's important to be able to learn, improve and diagnose errors quickly.
 2.  Setup dashboards and analytics and share data (even if just with links to dashboards) with your API -consumers and your backend system admins so that it's easy to see where the problems are, if any.
@@ -176,7 +277,7 @@ Setup API management publishing in the Continuous integration tool chain.
 
 <td colspan="1">Learn</td>
 
-<td colspan="1">
+<td markdown="span">
 
 Talk to the different stakeholders, participate in UI / client / backend service meetings and look at analytics to see what new features are needed, what improvements should be made. Take them to the API Canvas and start new round (continue to Prototyping -phase, Just Enough phase or Scaling -phase depending on the learnings).
 
@@ -221,7 +322,7 @@ For example
 <td>
 
 1.  Are there multiple API Consumers starting to use the API?
-2.  Is the business model changing dramatically? For example price for using the API is going down or API is becoming otherwise much more popular?
+2.  Is the business model changing dramatically? For example price for using the API is going down or API is becoming otherwise much more popular?
 
 </td>
 
@@ -246,7 +347,7 @@ For example
 
 7.  API design and information architecture needs to be designed from scalability point of view, for example different customer segments or customers from different countries or privacy legislation areas to different APIs.
 
-8.  Think about separation not centralization all through, even in databases and Identity management, authorization and access management.
+8.  Think about separation not centralization all through, even in databases and Identity management, authorization and access management.
 
 9.  Start with load balancer and 1 run-time node, this way more nodes can be added easily.
 
@@ -277,9 +378,9 @@ For example
 
 <td colspan="1">API Audit</td>
 
-<td colspan="1">
+<td markdown="span">
 
-Validate the build with <ac:link><ri:page ri:content-title="4\. API Audit"><ac:plain-text-link-body></ac:plain-text-link-body></ri:page></ac:link>.
+Validate the prototype with [API Audit](4APIAudit).
 
 </td>
 
@@ -291,7 +392,7 @@ Validate the build with <ac:link><ri:page ri:content-title="4\. API Audit"><ac:p
 
 <td colspan="1">
 
-Setup proper deployment orchestration since scaling usually causes multiple parallel environments. Make it possible to run test environment with parallel loads, rewrite tests if needed so they don't clash. 
+Setup proper deployment orchestration since scaling usually causes multiple parallel environments. Make it possible to run test environment with parallel loads, rewrite tests if needed so they don't clash. 
 
 </td>
 
@@ -303,7 +404,7 @@ Setup proper deployment orchestration since scaling usually causes multiple para
 
 <td colspan="1">
 
-Response times should be lower after scaling or at least as good as before.
+Response times should be lower after scaling or at least as good as before.
 
 </td>
 
@@ -336,4 +437,3 @@ Response times should be lower after scaling or at least as good as before.
 
 
 -
-
