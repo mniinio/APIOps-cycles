@@ -17,7 +17,7 @@ With the **API Consumer View** you describe the tasks the consumer needs to ach
 
 With the **API Provider View**, you list the **API products or services** your value proposition builds on. Describe in which way these products, services and features are **pain relievers**, how they eliminate, reduce or minimize pains consumers care about. Outline in which way they are **gain creators**. How they produce, increase or maximize outcomes and benefits that your consumer expects.
 
-The value proposition makes explicit how the API's relieve pains and create gains. Use it to design, test and iterate your value proposition until you figure out what resonates to consumers. You achieve fit by creating a clear connection between what matters to customers and how your products, services and features ease pain and create gains.
+The value proposition makes explicit how the API's relieve pains and create gains. Use it to design, test and iterate your value proposition until you figure out what resonates to consumers. You achieve **fit** by creating a clear connection between what matters to customers and how your products, services and features ease pain and create gains.
 
 ## API Canvas
 
@@ -29,7 +29,7 @@ With the **Infrastructure** related part you describe **Key Activities** in exec
 
 With the **Consumers** part you describe which **API Consumer Segment** the Value Proposition tries to serve. Various set of consumers can be segmented based on the different needs and attributes to ensure appropriate usage and implementation of the API. In **Relationships** section identify the type of relationship you want to create with consumers, how to ensure API is usable from consumers perspective. In **Channels** section describe how the API is delivered to its targeted consumers, end-users and developers. Efficient channels will distribute the the value proposition in ways that are fast, efficient and cost effective.
 
-With the **Finances** part you describe the financial aspects of the value proposition. In **Cost Structure** section describemost important monetary consequences related to operating the API, In **Revenue Streams** section describe ways the company makes income from each customer segment.
+With the **Finances** part you describe the financial aspects of the value proposition. In **Cost Structure** section describe most important monetary consequences related to operating the API, In **Revenue Streams** section describe ways the company makes income from each customer segment.
 
 **API Canvas** is the **master document** for next phases, including architecture design. The simpler API Value Proposition Canvas helps to create value proposition and related information to the API Canvas.You should share the API Canvas with all relevant stakeholders. This includes external developers and other partners you need to work with.
 
