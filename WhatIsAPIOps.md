@@ -4,7 +4,7 @@ title: What is APIOps&reg;
 permalink: /whatisapiops/
 ---
 
-APIOps&reg; is aa term coined from [DevOps (Wikipedia)](https://en.wikipedia.org/wiki/DevOps). APIOps highlights unique nature of developing and operating APIs compared to other software.
+APIOps&reg; is a term coined from [DevOps (Wikipedia)](https://en.wikipedia.org/wiki/DevOps) and registered trademark of open non-profit [APIOps.net community](http://apiops.net) for API developers and enthusiasts. APIOps highlights unique nature of developing and operating APIs compared to other software.
 
 APIOps is a quite commonly used term. API -specific things are design patterns, gateways and other parts of API management platforms. Also versioning, subscriptions and rate limiting are different compared to UI -centric development.
 
