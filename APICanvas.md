@@ -33,7 +33,7 @@ With the **Finances** part you describe the financial aspects of the value propo
 
 **API Canvas** is the **master document** for next phases, including architecture design. The simpler API Value Proposition Canvas helps to create value proposition and related information to the API Canvas.You should share the API Canvas with all relevant stakeholders. This includes external developers and other partners you need to work with.
 
-Start with the API Value Proposition Canvas. ****It’s a great interviewing tool**.** Use it when finding and validating requirements with API Consumers.
+Start with the API Value Proposition Canvas. **It’s a great interviewing tool**. Use it when finding and validating requirements with API Consumers.
 
 ## Step 1: API Value Proposition Canvas
 
