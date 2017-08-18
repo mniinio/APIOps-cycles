@@ -31,9 +31,10 @@ html, body{
     height:100%;
 }
 
-@media screen and (max-width: 80em) and (min-width: 42em)
-.page-header {
-    padding: 0;
+@media screen and (max-width: 80em) and (min-width: 42em) {
+  .page-header {
+      padding: 0;
+  }
 }
 
 nav {
