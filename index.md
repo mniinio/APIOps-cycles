@@ -2,5 +2,6 @@
 title: APIOps&reg; Cycles table of contents
 ---
 
-This needs a welcome message and a picture
+[What is APIOps&reg; Cycles](WhatIsAPIOps)
 
+This needs a welcome message and a picture
