@@ -8,8 +8,6 @@ APIOps&reg; is a term coined from [DevOps (Wikipedia)](https://en.wikipedia.org/
 
 APIOps is a quite commonly used term. API -specific things are design patterns, gateways and other parts of API management platforms. Also versioning, subscriptions and rate limiting are different compared to UI -centric development.
 
-One major difference is that APIs are products, not unique services.  API can be used by several different API Consumer applications or even devices. APIs can be sold and bought and they are the lifeblood to the applications using them.
-
 APIOps goal is to design, build, test and release APIs more rapidly, frequently and reliably.
 
 APIs have special specification standards, most common is OpenAPI (swagger). APIs have also some special tools for building deploying, testing and generating documentation. It is the same as end-user applications, with UX and UI design tools and special automation tools.
