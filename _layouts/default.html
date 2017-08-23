@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-blue.min.css" />
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!-- link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" -->
   </head>
   <body>
       <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
@@ -51,10 +51,11 @@
       </header>
       {{ content }}
 
-      <footer class="site-footer">
-        <span>API Canvas and API Value Proposition templates and method by Digia PLC is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. API MVA templates created by <a href="www.digia.com">Digia Plc</a></span>
-        <span>re-interpreted from Alex Osterwalder’s Business Model Canvas, Manfred Bortenschlager's <a href="https://www.slideshare.net/3scale/api-model-canvas-apidays-mediterranea-2015"> API model Canvas</a> </span>
-      </footer>
+          <div class="mdl-mega-footer--bottom-section">
+            <div class="mdl-logo">
+              <span>API Canvas and API Value Proposition templates and method by Digia PLC is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. API MVA templates created by <a href="www.digia.com">Digia Plc</a></span>
+              <span>re-interpreted from Alex Osterwalder’s Business Model Canvas, Manfred Bortenschlager's <a href="https://www.slideshare.net/3scale/api-model-canvas-apidays-mediterranea-2015"> API model Canvas</a> </span>
+            </div>
 
     {% if site.google_analytics %}
       <script type="text/javascript">
