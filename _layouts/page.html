@@ -1,24 +1,13 @@
 ---
 layout: default
 ---
-  <nav>
+        <section class="section--center mdl-grid mdl-grid--no-spacing">
+             <div class="mdl-cell mdl-cell--12-col">
+              <h1>{{ page.title }}</h1>
 
-    <!-- Sidebar -->
-    <div class="apiops-sidebar apiops-bar-block">
-
-    {% for item in site.data.menu.toc %}
-        <h3 class="apiops-bar-item">{{ item.title }}</h3>
-          <ul>
-            {% for entry in item.subfolderitems %}
-              <li><a href="{{ site.baseurl}}{{ entry.url }}" class="apiops-bar-item apiops-button">{{ entry.page }}</a></li>
-            {% endfor %}
-          </ul>
-      {% endfor %}
-    </div>
-    </nav>
-
-<h1>{{ page.title }}</h1>
-
-<main class="mdl-layout__content">
-{{ content }}
-</main>
+                <main class="mdl-layout__content">
+                {{ content }}
+                </main>
+       
+            </div>
+          </section>
