@@ -5,12 +5,13 @@ slug: APIDesignStyleGuide
 
 ## Format of API specification
 
-Use the most recent OpenAPI version supported by the API management platform for describing your API
+Use the most recent [OpenAPI](https://www.openapis.org/) version supported by the API management platform for describing your API. [OpenAPI Specification (wikipedia)](https://en.wikipedia.org/wiki/OpenAPI_Specification) originally known as the Swagger Specification, is a specification for machine-readable interface files for describing, producing, consuming, and visualizing RESTful Web services.
 
 Information about supported versions
 
 *   [IBM API Connect](https://www.ibm.com/support/knowledgecenter/SSFS6T/com.ibm.apic.apionprem.doc/create_api_swagger.html)
 *   [Azure API management](https://docs.microsoft.com/en-us/azure/api-management/api-management-get-started#a-namecreate-api-aimport-an-api) - see also [restrictions and known issues](https://docs.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions)
+*   [AWS API Gateway](http://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-export-api.html)
 
 Use examples-attribute with JSON schemas (validated) to provide automatically generated documentation and smart mock data to help use the API.
 
