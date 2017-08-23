@@ -37,6 +37,12 @@ html, body{
   }
 }
 
+
+@media screen and (max-width: 90%) and (min-width: 42em) {
+  .main-content-fullsize {
+  }
+}
+
 nav {
     float: left;
     max-width: 960px;
