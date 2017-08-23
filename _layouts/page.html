@@ -1,6 +1,21 @@
 ---
 layout: default
 ---
+  <nav>
+
+    <!-- Sidebar -->
+    <div class="apiops-sidebar apiops-bar-block">
+
+    {% for item in site.data.menu.toc %}
+        <h3 class="apiops-bar-item">{{ item.title }}</h3>
+          <ul>
+            {% for entry in item.subfolderitems %}
+              <li><a href="{{ site.baseurl}}{{ entry.url }}" class="apiops-bar-item apiops-button">{{ entry.page }}</a></li>
+            {% endfor %}
+          </ul>
+      {% endfor %}
+    </div>
+    </nav>
 
 <h1>{{ page.title }}</h1>
 
