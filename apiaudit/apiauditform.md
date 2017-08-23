@@ -1,7 +1,7 @@
 ---
 layout: fullpage
 title: API Audit form
-permalink: /apiaudit/apiauditform
+permalink: /apiaudit/apiauditform/
 ---
 
 <table>
