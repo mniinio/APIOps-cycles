@@ -41,6 +41,9 @@ html, body{
 @media screen and (max-width: 120em) and (min-width: 42em) {
   .main-content-fullsize {
       @extend .main-content;
+      @extend .main-content table;
+      @extend .main-content table th;
+      @extend .main-content table td;
   }
 }
 
