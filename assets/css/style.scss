@@ -38,8 +38,9 @@ html, body{
 }
 
 
-@media screen and (max-width: 90%) and (min-width: 42em) {
+@media screen and (max-width: 120em) and (min-width: 42em) {
   .main-content-fullsize {
+      @extend .main-content;
   }
 }
 
