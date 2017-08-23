@@ -19,7 +19,7 @@ With the **API Provider View**, you list the **API products or services** your v
 
 The value proposition makes explicit how the API's relieve pains and create gains. Use it to design, test and iterate your value proposition until you figure out what resonates to consumers. You achieve **fit** by creating a clear connection between what matters to customers and how your products, services and features ease pain and create gains.
 
-![API VAlue Proposition Canvas (AVP)](Value-Proposition-Canvas.jpg)
+![API VAlue Proposition Canvas (AVP)](Value-Proposition-Canvas.JPG)
 
 ## API Canvas
 
@@ -95,7 +95,7 @@ Think of this in different perspectives, a) the channels i.e. the technical appl
 
 ### Revenue streams (5)
 
-What is the [API Business models](APIBusinessModels) of this API?
+What is the [API Business models](APIBusinessModels.md) of this API?
 
 *   How does the API help you as an API Provider to create revenue (directly or in-directly)?
 *   How can you reduce costs by offering an API?
@@ -123,4 +123,4 @@ You can either **estimate the real costs** (which could be difficult at this s
 
 *   Stakeholder approvals
 
-*   [Collecting architecture requirements](CollectingArchitectureRequirements)
+*   [Collecting architecture requirements](CollectingArchitectureRequirements.md)
