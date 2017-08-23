@@ -4,7 +4,11 @@ title: Build APIs
 permalink: /buildapis/
 ---
 
+API Architecture centers around individual microservices that provide value via APIs with a JSON payload. APIs in most simplest form expose what systems do and therefore are highly valuable business assets. Compared to SOA Web Service Integration style, RestAPIs are centered around business entities exposed as resources that are identified via URIs and can be manipulated via standardizad Create, Read, Update and Delete (CRUD) methods.
+
 ## Before starting to build APIs
+
+API Design makes sure your API is succesfull. If the design principles are set in the initial stage, the quality can be quaranteed and the API is easy to implement, easy to use and developer friendly.
 
 *   [API Canvas](apicanvas) - APIs business requirements, API consumers, services needing to be built and the existing services available as API canvas?
 *   [Minimum Viable API Architecture (MVAA)](MinimumViableAPIArchitecture-MVAA) - non-functional and funcational requirements should have been gathered using the design templates?
