@@ -46,16 +46,18 @@
             {% for entry in item.subfolderitems %}
              <a href="{{ site.baseurl}}{{ entry.url }}" class="mdl-layout__tab">{{ entry.page }}</a>
             {% endfor %}
-      {% endfor %}
+         {% endfor %}
         </div>
       </header>
-      <main class="mdl-layout__content">        
-        <div class="mdl-layout__tab-panel">
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
+      <main class="mdl-layout__content">
+        <div class="content mdl-grid mdl-grid--no-spacing" id="content">
+          <div class="mdl-layout__tab-panel">
+            <section class="section--center mdl-grid mdl-grid--no-spacing">
+              <div class="mdl-cell mdl-cell--12-col">
       {{ content }}
             </div>
           </section>  
+          </div>
         </div>
       
         <footer class="mdl-mega-footer">
