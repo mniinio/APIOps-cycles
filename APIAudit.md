@@ -2,8 +2,9 @@
 title: API Audit
 permalink: /apiaudit/
 ---
+API Audit is a method to ensure APIs are matching the API Design guidelines and ensure the API meets the best practice criteria for usability and security and can be published via API management to the API consumers.
 
-This check list is intended to be used as design guideline together with the [API design style guide](APIDesignStyleGuide) but also after implementation. It ensures the API meets best practice criteria for usability and security and can be published via API management to the API consumers.
+This check list is intented to be used before API is published, after and during the implementation.
 
 Any "No" answers must have an explanation in the comment field. Those implementations should be fixed as soon as possible or as a minimum should be peer-reviewed carefully to validate the reason.
 
