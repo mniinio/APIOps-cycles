@@ -35,6 +35,8 @@ With the **Finances** part you describe the financial aspects of the value propo
 
 Start with the API Value Proposition Canvas. **It’s a great interviewing tool**. Use it when finding and validating requirements with API Consumers.
 
+[API-Canvas](API-Canvas.JPG)
+
 ## Step 1: API Value Proposition Canvas
 
 The AVP Canvas discovers what APIs and other services are you need. It starts from the API consumer's tasks, expected benefits (gains) and problems. Then it guides you to design your API features as solutions to those expectations. Start from the right side of the AVP Canvas.
