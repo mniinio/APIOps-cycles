@@ -1,7 +1,7 @@
 ---
 layout: fullpage
 title: API Canvas instructions
-permalink: /apicanvasinstructions/
+permalink: /apicanvas/apicanvasinstructions/
 parenturl: /apicanvas/
 ---
 
@@ -61,7 +61,7 @@ Think of this in different perspectives, a) the channels i.e. the technical appl
 
 ### Revenue streams (5)
 
-What is the [API Business models](APIBusinessModels.md) of this API?
+What is the [API Business models](../APIBusinessModels.md) of this API?
 
 *   How does the API help you as an API Provider to create revenue (directly or in-directly)?
 *   How can you reduce costs by offering an API?
