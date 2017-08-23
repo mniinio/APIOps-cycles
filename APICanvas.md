@@ -19,6 +19,8 @@ With the **API Provider View**, you list the **API products or services** your v
 
 The value proposition makes explicit how the API's relieve pains and create gains. Use it to design, test and iterate your value proposition until you figure out what resonates to consumers. You achieve **fit** by creating a clear connection between what matters to customers and how your products, services and features ease pain and create gains.
 
+![API VAlue Proposition Canvas (AVP)](Value-Proposition-Canvas.jpg)
+
 ## API Canvas
 
 The **API Canvas** is composed of nine areas, which have almost the same titles as in Business Model Canvas. Canvas is composed to four parts, **Value Proposition**, **Infrastructure**, **Consumers** and **Finances**.
@@ -35,7 +37,7 @@ With the **Finances** part you describe the financial aspects of the value propo
 
 Start with the API Value Proposition Canvas. **It’s a great interviewing tool**. Use it when finding and validating requirements with API Consumers.
 
-[API-Canvas](API-Canvas.JPG)
+![API-Canvas](API-Canvas.JPG)
 
 ## Step 1: API Value Proposition Canvas
 
