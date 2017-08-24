@@ -35,9 +35,13 @@
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
             <!-- The drawer is always open in large screens. The header is always shown,
   even in small screens. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header has-drawer is-upgraded" data-upgraded=",MaterialLayout">
-          <header class="mdl-layout__header is-casting-shadow">
-            <div role="button" tabindex="0" class="mdl-layout__drawer-button"><i class="material-icons"></i></div>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+          <header class="mdl-layout__header">
+               <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+                      <label class="mdl-button mdl-js-button mdl-button--icon"
+                             for="fixed-header-drawer-exp">
+                           <i class="material-icons">menu</i>
+                      </label>
                  <div class="mdl-layout-spacer"></div>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                                 mdl-textfield--floating-label mdl-textfield--align-right">
