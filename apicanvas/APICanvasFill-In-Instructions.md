@@ -1,5 +1,5 @@
 ---
-layout: fullpage
+layout: page
 title: API Canvas instructions
 permalink: /apicanvas/apicanvasinstructions/
 parenturl: /apicanvas/
