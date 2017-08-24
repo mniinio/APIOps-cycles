@@ -17,9 +17,9 @@ Phases of Minimum Viable Architecture are:
 
 ## Before you enter any of the actual MVAA design phases
 
-*   Make sure the [API Canvas](../apicanvas) has been created using the [APIOps&reg; Cycles templates](APIOpsCycles)
+*   Make sure the [API Canvas](../apicanvas) has been created using the [APIOps&reg; Cycles templates](apiopscycles)
 
-*   Collect [architecture requirements](CollectingArchitectureRequirements) using the [APIOps&reg; Cycles templates](APIOpsCycles)
+*   Collect [architecture requirements](collectingarchitecturerequirements) using the [APIOps&reg; Cycles templates](apiopscycles)
 
 ## Prototype
 
