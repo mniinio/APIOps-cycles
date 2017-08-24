@@ -94,7 +94,7 @@ When going through the APIOPS Cycle in the Prototype phase of building (an) API
 
 <td markdown="1">
 
-Validate the prototype with [API Audit](4APIAudit).
+Validate the prototype with [API Audit](../apiaudit).
 
 </td>
 
@@ -227,7 +227,7 @@ Validate the prototype with [API Audit](4APIAudit).
 
 <td markdown="1">
 
-Validate the prototype with [API Audit](4APIAudit).
+Validate the prototype with [API Audit](../apiaudit).
 
 </td>
 
@@ -379,7 +379,7 @@ For example
 
 <td markdown="1">
 
-Validate the prototype with [API Audit](4APIAudit).
+Validate the prototype with [API Audit](../apiaudit).
 
 </td>
 
