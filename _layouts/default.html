@@ -55,8 +55,8 @@
           <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">{{ site.title | default: site.github.repository_name }}</span>
             <nav class="mdl-navigation">
-              <h4>{{item.title }}</h4>
                  {% for item in site.data.menu.toc %}
+                  <h4>{{ item.title }}</h4>
                   {% for entry in item.subfolderitems %}
                    <a href="{{ site.baseurl}}{{ entry.url }}" class="mdl-navigation__link">{{ entry.page }}</a>
                   {% endfor %}
