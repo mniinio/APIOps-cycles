@@ -1,6 +1,6 @@
 ---
 title: Minimum Viable API Architecture
-permalink: MinimumViableAPIArchitecture-MVAA
+permalink: /minimumviableapiarchitecturemvaa/
 ---
 
 ## Overview of the MVAA method for designing architecture
@@ -17,9 +17,9 @@ Phases of Minimum Viable Architecture are:
 
 ## Before you enter any of the actual MVAA design phases
 
-*   Make sure the [API Canvas](../apicanvas) has been created using the [APIOps&reg; templates](APIOpsCycles)
+*   Make sure the [API Canvas](../apicanvas) has been created using the [APIOps&reg; Cycles templates](APIOpsCycles)
 
-*   Collect [architecture requirements](CollectingArchitectureRequirements) using the [APIOps&reg; templates](APIOpsCycles)
+*   Collect [architecture requirements](CollectingArchitectureRequirements) using the [APIOps&reg; Cycles templates](APIOpsCycles)
 
 ## Prototype
 

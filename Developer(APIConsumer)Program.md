@@ -1,6 +1,6 @@
 ---
 title: Developer (API Consumer) Program
-permalink: /Developer-APIConsumer-Program/
+permalink: /developerapiconsumerprogram/
 ---
 
 Developer experience is a lot like customer experience. It can have a big impact on the end-customer experience of the API-using application as well. Depending on maturity level there are different aspects to developer experience.

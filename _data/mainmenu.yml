@@ -10,13 +10,13 @@ maintoc:
       - page: 1. API Canvas
         url: /apicanvas/
       - page: 2. Minimum Viable API Architecture (MVAA)
-        url: /MinimumViableAPIArchitecture-MVAA
+        url: /minimumviableapiarchitecturemvaa/
       - page: 3. Build APIs
         url: /buildapis/
       - page: 4. API Audit
         url: /apiaudit/
       - page: 5. Developer (API Consumer) experience
-        url: /Developer-APIConsumer-Program
+        url: /developerapiconsumerprogram/
       - page: 6. Measuring APIs
         url: /measuringapis/
       - page: 7. Learn
