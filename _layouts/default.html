@@ -32,22 +32,8 @@
      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-indigo.min.css" />
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
-  <body>
-      <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-          <h3>{{ site.title | default: site.github.repository_name }}</h3>
-        <!-- <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2> -->
-        </div>
-        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          {% for item in site.data.mainmenu.maintoc %}
-            {% for entry in item.subfolderitems %}
-             <a href="{{ site.baseurl}}{{ entry.url }}" class="mdl-layout__tab">{{ entry.page }}</a>
-            {% endfor %}
-         {% endfor %}
-        </div>
-        <!-- The drawer is always open in large screens. The header is always shown,
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+            <!-- The drawer is always open in large screens. The header is always shown,
   even in small screens. -->
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
                     mdl-layout--fixed-header">
@@ -81,6 +67,19 @@
           <main class="mdl-layout__content">
             <div class="page-content"><!-- Your content goes here --></div>
           </main>
+        </div>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+          <h3>{{ site.title | default: site.github.repository_name }}</h3>
+        <!-- <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2> -->
+        </div>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          {% for item in site.data.mainmenu.maintoc %}
+            {% for entry in item.subfolderitems %}
+             <a href="{{ site.baseurl}}{{ entry.url }}" class="mdl-layout__tab">{{ entry.page }}</a>
+            {% endfor %}
+         {% endfor %}
         </div>
         
       </header>
