@@ -38,13 +38,13 @@
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
           <header class="mdl-layout__header">
                <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-                    <div class="mdl-layout-spacer"></div>
-                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
-                                mdl-textfield--floating-label mdl-textfield--align-right">
                       <label class="mdl-button mdl-js-button mdl-button--icon"
                              for="fixed-header-drawer-exp">
-                        <i class="material-icons">search</i>
+                           <i class="material-icons">menu</i>
                       </label>
+                 <div class="mdl-layout-spacer"></div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                                mdl-textfield--floating-label mdl-textfield--align-right">
                       <div class="mdl-textfield__expandable-holder">
                         <input class="mdl-textfield__input" type="text" name="sample"
                                id="fixed-header-drawer-exp">
@@ -56,7 +56,7 @@
             <span class="mdl-layout-title">{{ site.title | default: site.github.repository_name }}</span>
             <ul class="toc">
                  {% for item in site.data.menu.toc %}
-                  <h4>{{ item.title }}</h4>
+                  <b>{{ item.title }}</b>
                   {% for entry in item.subfolderitems %}
                    <a href="{{ site.baseurl}}{{ entry.url }}">{{ entry.page }}</a>
                   {% endfor %}
