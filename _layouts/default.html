@@ -38,7 +38,6 @@
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
           <header class="mdl-layout__header">
                <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-                  <h3>{{ site.title | default: site.github.repository_name }}</h3>
                     <div class="mdl-layout-spacer"></div>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                                 mdl-textfield--floating-label mdl-textfield--align-right">
@@ -54,9 +53,9 @@
                 </div>
           </header>
           <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Title</span>
+            <span class="mdl-layout-title">{{ site.title | default: site.github.repository_name }}</span>
             <nav class="mdl-navigation">
-              <span class="mdl-layout-title">{{ item.title }}</span>
+              <h4>{{item.title }}</h4>
                  {% for item in site.data.menu.toc %}
                   {% for entry in item.subfolderitems %}
                    <a href="{{ site.baseurl}}{{ entry.url }}" class="mdl-navigation__link">{{ entry.page }}</a>
