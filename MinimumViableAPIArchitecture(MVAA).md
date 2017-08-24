@@ -17,13 +17,13 @@ Phases of Minimum Viable Architecture are:
 
 ## Before you enter any of the actual MVAA design phases
 
-*   Make sure the [API Canvas](1APICanvas) has been created using the [templates](APIOpsCycles)
+*   Make sure the [API Canvas](../apicanvas) has been created using the [APIOps&reg; templates](APIOpsCycles)
 
-*   Collect [architecture requirements](CollectingArchitectureRequirements) using the [templates](APIOpsCycles)
+*   Collect [architecture requirements](CollectingArchitectureRequirements) using the [APIOps&reg; templates](APIOpsCycles)
 
 ## Prototype
 
-> Goal: Zero code or tech prodocts used (or only existing), mimimal budget, still possibility to change plans radically
+> Goal: Zero code or tech prodocts used (or only existing), mimimal budget, still possibility to change plans radically >
 
 When going through the APIOPS Cycle in the Prototype phase of building (an) API
 
@@ -300,7 +300,7 @@ For example
 >   
 > Goal: Scale your architecture with the growing business
 
-  
+
 
 <table>
 
@@ -391,7 +391,7 @@ Validate the prototype with [API Audit](4APIAudit).
 
 <td markdown="span">
 
-Setup proper deployment orchestration since scaling usually causes multiple parallel environments. Make it possible to run test environment with parallel loads, rewrite tests if needed so they don't clash. 
+Setup proper deployment orchestration since scaling usually causes multiple parallel environments. Make it possible to run test environment with parallel loads, rewrite tests if needed so they don't clash.
 
 </td>
 
@@ -427,7 +427,7 @@ Response times should be lower after scaling or at least as good as before.
 
 <td colspan="1">Learn</td>
 <td markdown="1">
-    
+
 Adjust your metrics to see new registrations by developers and how the amount of requests grows per API consumer segment.
 
 </td>
