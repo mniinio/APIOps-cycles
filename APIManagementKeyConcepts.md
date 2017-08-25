@@ -7,29 +7,27 @@ slug: APIManagementKeyConcepts
 
 Value proposition describes the value to be delivered by using a specific product or product range. APIs are products and just like in all products, users will need a good reason (=value proposition) to decide to use it (=conversion).
 
-<div>
-
 *   How API Product in question solves problems or improves situation
 *   What specific benefits there is to use this specifc API instead of other integration methods?
 *   Why external partners or customers should use our API in stead of competitors'? (think about this if you are offering the API to external parties)
 
 ## API Product manager (or product owner)
 
-<span style="color: rgb(68,68,68);text-decoration: none;">Traditional product managers are commercially and analytically oriented persons who rely on tools like market research and user studies, and works with sales, marketing, and other stakeholders to create a product that will sell. In Agile development, product owner has typically less commercial responsibilities but is still a customer / stakeholder advocate and prioritizes items in the backlog according to the value they bring to the the customers.</span>
+Traditional product managers are commercially and analytically oriented persons who rely on tools like market research and user studies, and works with sales, marketing, and other stakeholders to create a product that will sell. In Agile development, product owner has typically less commercial responsibilities but is still a customer / stakeholder advocate and prioritizes items in the backlog according to the value they bring to the the customers.
 
-<span style="color: rgb(68,68,68);text-decoration: none;">The technical nature of APIs as products requires API Product owners to translate the value proposition into technical capabilities and the technical capabilities into business terms.</span>
+The technical nature of APIs as products requires API Product owners to translate the value proposition into technical capabilities and the technical capabilities into business terms.
 
-<span style="color: rgb(68,68,68);text-decoration: none;">Customers of API Product owners are software and technology developers, but also business developers of customers and partners. API Product owner needs to understand the specific nature and needs of these user groups. They also need to translate these as capabilities that his own team of backend developers understand and can actually build.</span>
+Customers of API Product owners are software and technology developers, but also business developers of customers and partners. API Product owner needs to understand the specific nature and needs of these user groups. They also need to translate these as capabilities that his own team of backend developers understand and can actually build.
 
-<span style="color: rgb(68,68,68);text-decoration: none;">One major task of API Product Manager is to explain and mitigate the risks and values of opening their company's data and value propositions to the world as a platform and also figure out how to build customer value from networks of other companies and their API using or offering products.</span>
+One major task of API Product Manager is to explain and mitigate the risks and values of opening their company's data and value propositions to the world as a platform and also figure out how to build customer value from networks of other companies and their API using or offering products.
 
-<span style="color: rgb(68,68,68);text-decoration: none;">API Product managers require great communication, business and technical skills.</span>
+API Product managers require great communication, business and technical skills.
 
-## <span style="color: rgb(68,68,68);text-decoration: none;">Application service manager</span>
+## Application service manager
 
-<span style="color: rgb(68,68,68);text-decoration: none;">CRM application serves as an (indirect or direct) backend for specific APIs. Any changes to the CRM or any service breaks may effect the APIs depending on it and the API consuming applications. Any needs to add or make changes to the dependent APIs may require changes in the application serving as a backend. If requirements come from other teams or external partners and customers, funding and priority must be negotiated. Service manager needs to do release plans, change requests and service break down notifications minding the APIs and API consumers. Requirements depend on architecture and dependency of the API layer.</span>
+CRM application serves as an (indirect or direct) backend for specific APIs. Any changes to the CRM or any service breaks may effect the APIs depending on it and the API consuming applications. Any needs to add or make changes to the dependent APIs may require changes in the application serving as a backend. If requirements come from other teams or external partners and customers, funding and priority must be negotiated. Service manager needs to do release plans, change requests and service break down notifications minding the APIs and API consumers. Requirements depend on architecture and dependency of the API layer.
 
-## <span style="color: rgb(68,68,68);text-decoration: none;">Information architect</span>
+## Information architect
 
 <span style="color: rgb(68,68,68);text-decoration: none;">Responsible for designing how requirements need to be split into independent APIs, endpoints and attributes and how to negotiate requirements between payload sizes, privacy and confidentiality requirements, local legal requirements and business processes. In charge of making sure the naming standards and values are valid also outside the company data architecture and naming conventions. Ideally creates guidelines for API publishing developers and conducts reviews.</span>
 
