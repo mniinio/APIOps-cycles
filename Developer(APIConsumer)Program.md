@@ -17,7 +17,7 @@ Developer experience is linked to both business, product and technical features
 *   being able to give geedback , knowing about changes, the image and brand of the company offering the API
 *   cost of using it
 
-Developer experience design starts when the API is designed with [1\. API Canvas](apicanvas) and there are special API consumer related requirements gathered in the architecture phase, see [Collecting architecture requirements](CollectingArchitectureRequirements).
+Developer experience design starts when the API is designed with [1\. API Canvas](../apicanvas) and there are special API consumer related requirements gathered in the architecture phase, see [Collecting architecture requirements](../CollectingArchitectureRequirements).
 
 The table below lists typical developer experience affecting resources, tools and processes.
 
