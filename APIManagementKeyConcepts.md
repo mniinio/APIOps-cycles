@@ -29,7 +29,7 @@ CRM application serves as an (indirect or direct) backend for specific APIs. An
 
 ## Information architect
 
-<span style="color: rgb(68,68,68);text-decoration: none;">Responsible for designing how requirements need to be split into independent APIs, endpoints and attributes and how to negotiate requirements between payload sizes, privacy and confidentiality requirements, local legal requirements and business processes. In charge of making sure the naming standards and values are valid also outside the company data architecture and naming conventions. Ideally creates guidelines for API publishing developers and conducts reviews.</span>
+Responsible for designing how requirements need to be split into independent APIs, endpoints and attributes and how to negotiate requirements between payload sizes, privacy and confidentiality requirements, local legal requirements and business processes. In charge of making sure the naming standards and values are valid also outside the company data architecture and naming conventions. Ideally creates guidelines for API publishing developers and conducts reviews.
 
 ## Developer segments
 
@@ -60,5 +60,3 @@ API management product specific information and guidelines about roles
 
 *   [<u>Microsoft Azure API management</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-create-groups)
 *   <u>[IBM API Connect - User roles](https://www.ibm.com/support/knowledgecenter/en/SSMNED_5.0.0/com.ibm.apic.overview.doc/overview_apimgmt_users.html)</u> and [Recommended roles for API Initiative](https://developer.ibm.com/apiconnect/2017/05/19/recommended-roles-api-initiative/)
-
-</div>
