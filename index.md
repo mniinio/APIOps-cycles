@@ -1,6 +1,6 @@
 ---
 title: Introduction
-permalink: /introduction/
+permalink: /index/
 ---
 
 The APIOps&reg; Cycles by Digia is a set of tools and methods for designing **API Management compatible API's with Clear business orientation and best practice architecture patters**.
