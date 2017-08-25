@@ -1,5 +1,5 @@
 ---
-title: Developer (API Consumer) Program
+title: Developer Program
 permalink: /developerapiconsumerprogram/
 ---
 
@@ -21,17 +21,8 @@ Developer experience design starts when the API is designed with <ac:link><ri:pa
 
 The table below lists typical developer experience affecting resources, tools and processes.
 
-<table>
-
-<thead>
-
-<tr>
-
-<th>
-
-<div class="tablesorter-header-inner">Developer onboarding topic</div>
-
-</th>
+## Developer onboarding topic
+*
 
 <th colspan="1">Maturity level when this topic is relevant</th>
 
