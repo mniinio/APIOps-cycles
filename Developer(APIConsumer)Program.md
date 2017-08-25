@@ -22,39 +22,12 @@ Developer experience design starts when the API is designed with <ac:link><ri:pa
 The table below lists typical developer experience affecting resources, tools and processes.
 
 ## Developer onboarding topic
-*
 
-<th colspan="1">Maturity level when this topic is relevant</th>
-
-<th colspan="1">
+* Portal UI design
+[<u>Azure API management guide</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-modify-content-layout)
+[IBM API Connect - Customizing the API Connect Developer Portal](https://developer.ibm.com/apiconnect/2017/07/19/customizing-api-connect-developer-portal/) (Company specific, based on branding and content creation guidelines)
 
 <div class="tablesorter-header-inner">Link to guide</div>
-
-</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td>Portal UI design</td>
-
-<td colspan="1">Maturity level 3 and 4</td>
-
-<td colspan="1">
-
-[<u>Azure API management guide</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-modify-content-layout)
-
-[IBM API Connect - Customizing the API Connect Developer Portal](https://developer.ibm.com/apiconnect/2017/07/19/customizing-api-connect-developer-portal/)
-
-(Company specific, based on branding and content creation guidelines)
-
-</td>
-
-</tr>
 
 <tr>
 
