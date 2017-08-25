@@ -2,7 +2,7 @@ toc:
   - title: Getting started
     subfolderitems:
       - page: Introduction
-        url: /index/
+        url: /
       - page: What is APIOps®?
         url: /whatisapiops/
   - title: The process and method
