@@ -3,8 +3,6 @@ title: Terms and conditions of use
 permalink: /APIAndDeveloperPortalTermsAndConditions/
 ---
 
-# Terms and conditions of use
-
 ## Terms and conditions of use of the API developer portal service
 
 Use of the API Portal service maintained by <span style="color: rgb(255,0,0);">XYZ</span> (hereinafter the Portal) requires acceptance of these conditions of use. These terms and conditions of use apply equally to all users, regardless of whether they have accessed only the public sections of the Portal or that requiring a login.  
