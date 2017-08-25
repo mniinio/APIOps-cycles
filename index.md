@@ -3,7 +3,9 @@ title: Introduction
 permalink: /
 ---
 
-The APIOps&reg; Cycles by Digia is a set of tools and methods for designing **API Management compatible API's with Clear business orientation and best practice architecture patters**.
+![APIOPS-CYCLES](CYCLES.png)
+
+The APIOps&reg; Cycles is a set of tools and methods for designing **API Management compatible API's with Clear business orientation and best practice architecture patters**.
 
 APIOps&reg; method uses modern and proven frameworks with a twist of our experience to the them for APIs. All methods have a Lean management base: [DevOps (wikipedia)](https://en.wikipedia.org/wiki/DevOps), [Business Model Canvas (wikipedia)](https://en.wikipedia.org/wiki/Business_Model_Canvas), [Value Proposition Canvas](), [Lean Startup (wikipedia)](https://en.wikipedia.org/wiki/Lean_startup), [Minimum Viable Architecture](https://www.enterpriseirregulars.com/116163/minimum-viable-architecture-good-enough-good-enough-enterprise/) and [API Model Canvas](https://www.slideshare.net/3scale/api-model-canvas-apidays-mediterranea-2015). Afore mentioned frameworks, tools and methods have been re-interpreted to create the APIOps&reg; Cycles. 
 
