@@ -26,36 +26,23 @@ The table below lists typical developer experience affecting resources, tools an
 * Portal UI design (Company specific, based on branding and content creation guidelines)
   * [<u>Azure API management guide</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-modify-content-layout)
   * [IBM API Connect - Customizing the API Connect Developer Portal](https://developer.ibm.com/apiconnect/2017/07/19/customizing-api-connect-developer-portal/)
+  
 * Content and communication guidelines
   * All API documentation should be generated from API Product and OpenAPI documents and masters should be stored and edited using version control, not directly to API management/portal.
   * Content, language, what information is shared, which channels and formats used, etc.
   * (Company specific, based on branding and content creation guidelines)
 
-<tr>
+* Identity management
+ * API Consuming developers
+  * Company users (employees, partners, customers) as API consuming developers ([<u>Azure AD</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad)), [<u>Azure AD groups</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad#how-to-add-an-external-azure-active-directory-group) can be used for user groups
+  * Individual persons (consumers) as API consuming developers ([<u>Azure AD B2C</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad-b2c))
+  * Using other identity and authentication providers for API consuming developers ([<u>Delegated authentication</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-setup-delegation)) 
 
-<td>Identity management</td>
+* API Publishing developers
+ * Company users (employees, subcontractors) as API publishing developers ([<u>Azure AD</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad)), [<u>Azure AD groups</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad#how-to-add-an-external-azure-active-directory-group) can be used for user groups
 
-<td colspan="1">Maturity level 2-4</td>
-
-<td colspan="1">
-
-API Consuming developers
-
-*   Company users (employees, partners, customers) as API consuming developers ([<u>Azure AD</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad)), [<u>Azure AD groups</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad#how-to-add-an-external-azure-active-directory-group) can be used for user groups
-*   Individual persons (consumers) as API consuming developers ([<u>Azure AD B2C</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad-b2c))
-*   Using other identity and authentication providers for API consuming developers ([<u>Delegated authentication</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-setup-delegation)) 
-
-API Publishing developers
-
-*   Company users (employees, subcontractors) as API publishing developers ([<u>Azure AD</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad)), [<u>Azure AD groups</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad#how-to-add-an-external-azure-active-directory-group) can be used for user groups
-
-Securing API backends and passing authorization from API consumer via API management to API backend
-
-*   Microsoft Azure and AD As OAuth 2.0 provider
-
-</td>
-
-</tr>
+* Securing API backends and passing authorization from API consumer via API management to API backend
+ * Microsoft Azure and AD As OAuth 2.0 provider
 
 <tr>
 
