@@ -30,7 +30,7 @@ toc:
       - page: API Audit form
         url: /apiaudit/apiauditform/
       - page: API design style guide
-        url: /APIDesignStyleGuide
+        url: /buildapis/apidesignstyleguide/
       - page: Terms and conditions template
         url: /APIAndDeveloperPortalTermsAndConditions/
       - page: API management key concepts
