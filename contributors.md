@@ -8,8 +8,8 @@ re-interpreted from Alex Osterwalder’s <a href="https://en.wikipedia.org/wiki/
 
 Creators:
 
-@mniinioja Digia Oyj
-@slairal Digia Oyj
-@jiivari Digia Oyj
+* @mniinioja Digia Oyj
+* @slairal Digia Oyj
+* @jiivari Digia Oyj
 
 Contributors:
