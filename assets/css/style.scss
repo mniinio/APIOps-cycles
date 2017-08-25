@@ -295,4 +295,11 @@ img {
       li {
         position: relative;
       }
+
+      li.mdl-mini-footer--social-btn {
+          margin: 0 16px;
+          width: 24px;
+          height: 24px;
+          background-color: transparent;
+      }
 }
