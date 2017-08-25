@@ -23,29 +23,13 @@ The table below lists typical developer experience affecting resources, tools an
 
 ## Developer onboarding topic
 
-* Portal UI design
-[<u>Azure API management guide</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-modify-content-layout)
-[IBM API Connect - Customizing the API Connect Developer Portal](https://developer.ibm.com/apiconnect/2017/07/19/customizing-api-connect-developer-portal/) (Company specific, based on branding and content creation guidelines)
-
-<div class="tablesorter-header-inner">Link to guide</div>
-
-<tr>
-
-<td>Content and communication guidelines</td>
-
-<td colspan="1">Maturity level 2-4</td>
-
-<td colspan="1">
-
-All API documentation should be generated from API Product and OpenAPI documents and masters should be stored and edited using version control, not directly to API management/portal.
-
-Content, language, what information is shared, which channels and formats used, etc.
-
-(Company specific, based on branding and content creation guidelines)
-
-</td>
-
-</tr>
+* Portal UI design (Company specific, based on branding and content creation guidelines)
+  * [<u>Azure API management guide</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-modify-content-layout)
+  * [IBM API Connect - Customizing the API Connect Developer Portal](https://developer.ibm.com/apiconnect/2017/07/19/customizing-api-connect-developer-portal/)
+* Content and communication guidelines
+  * All API documentation should be generated from API Product and OpenAPI documents and masters should be stored and edited using version control, not directly to API management/portal.
+  * Content, language, what information is shared, which channels and formats used, etc.
+  * (Company specific, based on branding and content creation guidelines)
 
 <tr>
 
