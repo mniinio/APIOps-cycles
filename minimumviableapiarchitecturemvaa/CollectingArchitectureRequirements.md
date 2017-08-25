@@ -1,5 +1,4 @@
 ---
-layout: fullpage
 title: Collecting Architecture Requirements
 permalink: /minimumviableapiarchitecturemvaa/collectingarchitecturerequirements/
 parenturl: /minimumviableapiarchitecturemvaa/
