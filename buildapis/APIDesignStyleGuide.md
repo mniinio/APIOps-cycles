@@ -1,6 +1,5 @@
 ---
 title: API Design Style Guide
-layout: fullpage
 permalink: /buildapis/apidesignstyleguide/
 parenturl: /apidesignstyleguide/
 ---
