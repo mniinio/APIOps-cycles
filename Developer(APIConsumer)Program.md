@@ -53,70 +53,20 @@ The table below lists typical developer experience affecting resources, tools an
   * Workflow for handling each individual developer subscription
     * when [<u>publishing an API product</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-add-products#a-nameadd-description-aadd-descriptive-information-to-a-product), set the "Require subscription approval" enabled
 
-<tr>
+* Terms and conditions for using our APIs
+  * Based on [<u>template</u>](https://wiki.digia.com/display/INTEGRATION/Valmet+API+Strategy+DRAFT) and legal department requirements before allowing external developers to use APIs
+  * Requiring users to view and accept terms and conditions when signing up to the developer portal or when subscribing to a specific API can be done by editing / linking content to the [<u>page templates</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-developer-portal-templates) or to each APIs product description 
 
-<td>Terms and conditions for using our APIs</td>
+* Monetization (API pricing and payments handling)
+  * [How to monetize APIs with Azure API Management](https://blogs.msdn.microsoft.com/apimanagement/2016/06/30/how-to-monetize-apis-with-azure-api-management/)
+  * [IBM API Connect - Getting started with monetization](https://developer.ibm.com/apiconnect/2017/07/10/getting-started-monetization-apic-v5072/)  
 
-<td colspan="1">Maturity level 2-4, if API is offered to external customers or partners</td>
+* Marketing communication (ads, swag, press releases...)
+  * Customer stories (testimonials, interviews etc.)
 
-<td colspan="1">
-
-Based on [<u>template</u>](https://wiki.digia.com/display/INTEGRATION/Valmet+API+Strategy+DRAFT) and legal department requirements before allowing external developers to use APIs
-
-Requiring users to view and accept terms and conditions when signing up to the developer portal or when subscribing to a specific API can be done by editing / linking content to the [<u>page templates</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-developer-portal-templates) or to each APIs product description 
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>Monetization (API pricing and payments handling)</td>
-
-<td colspan="1">Maturity level 4</td>
-
-<td colspan="1">
-
-[How to monetize APIs with Azure API Management](https://blogs.msdn.microsoft.com/apimanagement/2016/06/30/how-to-monetize-apis-with-azure-api-management/)
-
-[IBM API Connect - Getting started with monetization](https://developer.ibm.com/apiconnect/2017/07/10/getting-started-monetization-apic-v5072/)  
-</td>
-
-</tr>
-
-<tr>
-
-<td>Marketing communication (ads, swag, press releases...)</td>
-
-<td colspan="1">Maturity level 3 and 4</td>
-
-</tr>
-
-<tr>
-
-<td colspan="1">Customer stories (testimonials, interviews etc.)</td>
-
-<td colspan="1">Maturity level 3 and 4</td>
-
-</tr>
-
-<tr>
-
-<td>Release notes / change logs</td>
-
-<td colspan="1">
-
-In all maturity levels. In Maturity level 3 and 4 release notes need to be made public and major release information needs to be pushed to developer community as there can be breaking changes.
-
-</td>
-
-<td colspan="1">
-
-Update each APIs release notes to APIs own page (either as part of CI process or manually) 
-
-</td>
-
-</tr>
+* Release notes / change logs
+  * In all maturity levels. In Maturity level 3 and 4 release notes need to be made public and major release information needs to be pushed to developer community as there can be breaking changes.
+  * Update each APIs release notes to APIs own page (either as part of CI process or manually) 
 
 <tr>
 
