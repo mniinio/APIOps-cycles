@@ -48,11 +48,11 @@
           </header>
           <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">{{ site.title | default: site.github.repository_name }}</span>
-            <ul class="toc">
+            <nav class="mdl-navigation">
                  {% for item in site.data.menu.toc %}
                   <b>{{ item.title }}</b>
                   {% for entry in item.subfolderitems %}
-                   <a href="{{ site.baseurl}}{{ entry.url }}">{{ entry.page }}</a>
+                   <a href="{{ site.baseurl}}{{ entry.url }}" class="mdl-navigation__link">{{ entry.page }}</a>
                   {% endfor %}
                {% endfor %}
             </nav>
@@ -62,13 +62,13 @@
               {{ content }}
             </div>
 
-          <footer class="mdl-mini-footer mdl-color--grey-900">
-            <ul>
+          <footer class="docs-footer mdl-mini-footer mdl-color--grey-900">
+            <ul class="docs-link-list">
               <li class="mdl-mini-footer--social-btn">
-                <a href="https://twitter.com/apiops" class="social-btn mdi mdi-twitter-box" role="button" title="Twitter"></a>
+                <a href="https://twitter.com/apiops" class="social-btn mdi mdi-twitter-box mdl-light mdi-24px" role="button" title="Twitter"></a>
               </li>
               <li class="mdl-mini-footer--social-btn">
-                <a href="https://github.com/apiops/apiops-cycles" class="social-btn mdi mdi-github-box" role="button" title="GitHub"></a>
+                <a href="https://github.com/apiops/apiops-cycles" class="social-btn mdi mdi-github-box mdi-light mdi-24px" role="button" title="GitHub"></a>
               </li>
             </ul>
             <ul class="docs-link-list">
