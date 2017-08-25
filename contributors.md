@@ -1,6 +1,6 @@
 ---
 title: Contributers
-permalink: /contributers/
+permalink: /contributors/
 ---
 
 API Canvas and API Value Proposition templates and method is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. API MVA templates created by <a href="www.digia.com">Digia Plc</a></span>
