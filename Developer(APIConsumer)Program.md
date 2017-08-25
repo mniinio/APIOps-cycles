@@ -44,30 +44,14 @@ The table below lists typical developer experience affecting resources, tools an
 * Securing API backends and passing authorization from API consumer via API management to API backend
   * Microsoft Azure and AD As OAuth 2.0 provider
 
-<tr>
-
-<td>Giving access to APIs requiring approval</td>
-
-<td colspan="1">Maturity level 2-4</td>
-
-<td colspan="1">
-
-API visibility and access is controlled via API Products.
-
-Developers need to have access to view specific API product in order to subscribe to actually using it: [<u>Making API Product visible to developers</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-add-products#a-namemake-visible-amake-a-product-visible-to-developers).
-
-Developer subscribes to APIs
-
-*   self-service in Developer portal or
-*   [<u>subscription can be added in Publisher portal</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-product-with-rules#a-namesubscribe-account-ato-subscribe-a-developer-account-to-the-product) by administrator.
-
-Workflow for handling each individual developer subscription
-
-*   when [<u>publishing an API product</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-add-products#a-nameadd-description-aadd-descriptive-information-to-a-product), set the "Require subscription approval" enabled
-
-</td>
-
-</tr>
+* Giving access to APIs requiring approval
+  * API visibility and access is controlled via API Products.
+    * Developers need to have access to view specific API product in order to subscribe to actually using it: [<u>Making API Product visible to developers</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-add-products#a-namemake-visible-amake-a-product-visible-to-developers).
+  * Developer subscribes to APIs
+    * self-service in Developer portal or
+    * [<u>subscription can be added in Publisher portal</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-product-with-rules#a-namesubscribe-account-ato-subscribe-a-developer-account-to-the-product) by administrator.
+  * Workflow for handling each individual developer subscription
+    * when [<u>publishing an API product</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-add-products#a-nameadd-description-aadd-descriptive-information-to-a-product), set the "Require subscription approval" enabled
 
 <tr>
 
