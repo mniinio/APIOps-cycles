@@ -33,16 +33,16 @@ The table below lists typical developer experience affecting resources, tools an
   * (Company specific, based on branding and content creation guidelines)
 
 * Identity management
- * API Consuming developers
-  * Company users (employees, partners, customers) as API consuming developers ([<u>Azure AD</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad)), [<u>Azure AD groups</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad#how-to-add-an-external-azure-active-directory-group) can be used for user groups
-  * Individual persons (consumers) as API consuming developers ([<u>Azure AD B2C</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad-b2c))
-  * Using other identity and authentication providers for API consuming developers ([<u>Delegated authentication</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-setup-delegation)) 
+  * API Consuming developers
+    * Company users (employees, partners, customers) as API consuming developers ([<u>Azure AD</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad)), [<u>Azure AD groups</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad#how-to-add-an-external-azure-active-directory-group) can be used for user groups
+    * Individual persons (consumers) as API consuming developers ([<u>Azure AD B2C</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad-b2c))
+    * Using other identity and authentication providers for API consuming developers ([<u>Delegated authentication</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-setup-delegation)) 
 
 * API Publishing developers
- * Company users (employees, subcontractors) as API publishing developers ([<u>Azure AD</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad)), [<u>Azure AD groups</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad#how-to-add-an-external-azure-active-directory-group) can be used for user groups
+  * Company users (employees, subcontractors) as API publishing developers ([<u>Azure AD</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad)), [<u>Azure AD groups</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-aad#how-to-add-an-external-azure-active-directory-group) can be used for user groups
 
 * Securing API backends and passing authorization from API consumer via API management to API backend
- * Microsoft Azure and AD As OAuth 2.0 provider
+  * Microsoft Azure and AD As OAuth 2.0 provider
 
 <tr>
 
