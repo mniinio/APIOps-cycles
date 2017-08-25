@@ -68,52 +68,13 @@ The table below lists typical developer experience affecting resources, tools an
   * In all maturity levels. In Maturity level 3 and 4 release notes need to be made public and major release information needs to be pushed to developer community as there can be breaking changes.
   * Update each APIs release notes to APIs own page (either as part of CI process or manually) 
 
-<tr>
+* Presentations and demos
 
-<td>Presentations and demos</td>
+* SDKs (libraries, API client templates...)
+  * Depending on API consumer group specific requirements
 
-<td colspan="1">In all maturity levels. In level 1-2 usually internal only.</td>
+* Plugins and ready made integrations
+  * Possibly to [Azure Apps](https://azure.microsoft.com/en-us/services/app-service/)
 
-</tr>
-
-<tr>
-
-<td>SDKs (libraries, API client templates...)</td>
-
-<td colspan="1">Usually maturity level 4 or for highly valuable API consumers.</td>
-
-<td colspan="1">
-
-Depending on API consumer group specific requirements
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>Plugins and ready made integrations</td>
-
-<td colspan="1">Maturity level 3 and 4</td>
-
-<td colspan="1">Possibly to [Azure Apps](https://azure.microsoft.com/en-us/services/app-service/)</td>
-
-</tr>
-
-<tr>
-
-<td colspan="1">Feedback and feature suggestions</td>
-
-<td colspan="1">Maturity level 3 and 4</td>
-
-<td colspan="1">
-
-Email address and/or JIRA project for collecting internal and external feature suggestions? Possibly a feedback widget / form / email address in the developer portal
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+* Feedback and feature suggestions
+  * Email address and/or JIRA project for collecting internal and external feature suggestions? Possibly a feedback widget / form / email address in the developer portal
