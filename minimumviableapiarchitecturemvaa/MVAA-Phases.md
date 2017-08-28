@@ -1,4 +1,5 @@
 ---
+layout: fullpage
 title: Minimun Viable Architecture Phases
 permalink: /minimumviableapiarchitecturemvaa/mvaa-phases/
 parenturl: /minimumviableapiarchitecturemvaa/
