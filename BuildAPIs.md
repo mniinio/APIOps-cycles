@@ -16,7 +16,7 @@ APIs can be divided to **public, private and partner** APIs based on their usage
 API Design makes sure your APIs succesful. If the design principles are set in the initial stage, the quality can be quaranteed and the API are easy to implement, easy to use and developer friendly.
 
 *   [API Canvas](../apicanvas) - APIs business requirements, API consumers, services needing to be built and the existing services available as API canvas?
-*   [Minimum Viable API Architecture (MVAA)](../minimumviableapiarchitecturemvaa) - non-functional and funcational requirements should have been gathered using the design templates?
+*   [Minimum Viable API Architecture (MVAA)](../minimumviableapiarchitecturemvaa) - non-functional and functional requirements should have been gathered using the design templates?
 *   Also check the [API Audit](../apiaudit) and [API design style guide](apidesignstyleguide) for guidelines on implementation
 *   Design application architecture based on the environment where the API -backends are build. Estimate runtime costs at this point.
 *   Setup automatical deployments, test-automation and API publishing pipelines (this requires own guide when environment and API management platform has been selected)
