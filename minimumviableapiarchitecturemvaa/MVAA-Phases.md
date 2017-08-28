@@ -80,13 +80,19 @@ parenturl: /minimumviableapiarchitecturemvaa/
   </td>
 </tr>
 <tr>
-  <td colspan="1">API Audit</td>
-  <td markdown="1">Validate the prototype with [API Audit](../apiaudit).</td>
-  <td markdown="1">Validate the prototype with [API Audit](../apiaudit).</td>
-  <td markdown="1">Validate the prototype with [API Audit](../apiaudit).</td>
+  <th colspan="1">API Audit</th>
+  <td markdown="1">
+    Validate the prototype with [API Audit](../apiaudit).
+  </td>
+  <td markdown="1">
+    Validate the prototype with [API Audit](../apiaudit).
+  </td>
+  <td markdown="1">
+    Validate the prototype with [API Audit](../apiaudit).
+  </td>
 </tr>
 <tr>
-  <td colspan="1">API Lifecycle</td>
+  <th colspan="1">API Lifecycle</th>
   <td markdown="1">
   1.  OpenAPI specification including schemas can be published in API management and seen and tried out by future API -consumers easily.
   2.  Publishing in API management manually is quick in this stage and ensures from first days that the specification is suitable for API management tool.
@@ -94,6 +100,53 @@ parenturl: /minimumviableapiarchitecturemvaa/
   <td markdown="1">Setup API management publishing in the Continuous integration tool chain.</td>
   <td markdown="1">Setup proper deployment orchestration since scaling usually causes multiple parallel environments. Make it possible to run test environment with parallel loads, rewrite tests if needed so they don't clash.</td>
 </tr>
+<tr>
+  <th colspan="1">Developer Experience</th>
+  <td markdown="1">
+  1.  Ask feedback from UI-developers, partners, customers, backend system administrators, API developers, business people.
+  2.  At this stage fixing is really fast and easy.
+  </td>
+  <td markdown="1">
+  1.  Get an API management tool with basic configurations and other analytics in place. Goal is to make sure you have detailed analytics on how the APIs are being used, what errors happen, and who is really using it. It's important to be able to learn, improve and diagnose errors quickly.
+  2.  Setup dashboards and analytics and share data (even if just with links to dashboards) with your API -consumers and your backend system admins so that it's easy to see where the problems are, if any.
+  </td>
+  <td markdown="1">
+  Response times should be lower after scaling or at least as good as before.
+  </td>
+</tr>
+<tr>
+  <th colspan="1">Measure</th>
+  <td markdown="1">
+  1.  Measuring is mostly qualitative at this stage (happy / not happy stakeholders).
+  2.  Processing time in UIs/clients using the API can be measured, it can have major effect in the design.
+  3.  Work estimates and costs for implementing the API can be made more accurately.
+  </td>
+  <td markdown="1">
+  1.  Get an API management tool with basic configurations and other analytics in place. Goal is to make sure you have detailed analytics on how the APIs are being used, what errors happen, and who is really using it. It's important to be able to learn, improve and diagnose errors quickly.
+  2.  Setup dashboards and analytics and share data (even if just with links to dashboards) with your API -consumers and your backend system admins so that it's easy to see where the problems are, if any.
+  </td>
+  <td markdown="1">
+  1.  Keep an eye on response times, amount of errors (also client side 4xx) due to any problems with scaling.
+  2.  Add Search Engine Optimization (SEO) capabilities to developer portal to see who visits and how many start using the APIs.
+  3.  Track API usage per API consumer segment according to your metrics: requests, revenue, feedback, incidents...
+  </td>
+</tr>
+<tr>
+  <th colspan="1">Learn</th>
+  <td markdown="1">
+  1.  Prototype API can be used as backend for client development, with no coding done yet for the API itself, ask feedback actively and participate in UI/client design sessions if possible.
+  2.  Stay in the prototype phase until you are sure all those few attributes and endpoints have as standard names and values as possible, but only those few fields and endpoints which were crucial.
+  3.  **Fix the design according to feedback until about 80% of people around you are happy about it, then move on to "Just Enough" -phase.**
+  </td>
+  <td markdown="1">
+  1.  Get an API management tool with basic configurations and other analytics in place. Goal is to make sure you have detailed analytics on how the APIs are being used, what errors happen, and who is really using it. It's important to be able to learn, improve and diagnose errors quickly.
+  2.  Setup dashboards and analytics and share data (even if just with links to dashboards) with your API -consumers and your backend system admins so that it's easy to see where the problems are, if any.
+  </td>
+  <td markdown="1">
+  Adjust your metrics to see new registrations by developers and how the amount of requests grows per API consumer segment.
+  </td>
+</tr>
+
 
 
 </tbody>
