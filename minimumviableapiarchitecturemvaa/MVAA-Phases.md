@@ -82,13 +82,13 @@ parenturl: /minimumviableapiarchitecturemvaa/
 <tr>
   <th colspan="1">API Audit</th>
   <td markdown="1">
-    Validate the prototype with [API Audit](../apiaudit).
+  Validate the prototype with [API Audit](../apiaudit).
   </td>
   <td markdown="1">
-    Validate the prototype with [API Audit](../apiaudit).
+  Validate the prototype with [API Audit](../apiaudit).
   </td>
   <td markdown="1">
-    Validate the prototype with [API Audit](../apiaudit).
+  Validate the prototype with [API Audit](../apiaudit).
   </td>
 </tr>
 <tr>
@@ -97,8 +97,12 @@ parenturl: /minimumviableapiarchitecturemvaa/
   1.  OpenAPI specification including schemas can be published in API management and seen and tried out by future API -consumers easily.
   2.  Publishing in API management manually is quick in this stage and ensures from first days that the specification is suitable for API management tool.
   </td>
-  <td markdown="1">Setup API management publishing in the Continuous integration tool chain.</td>
-  <td markdown="1">Setup proper deployment orchestration since scaling usually causes multiple parallel environments. Make it possible to run test environment with parallel loads, rewrite tests if needed so they don't clash.</td>
+  <td markdown="1">
+  Setup API management publishing in the Continuous integration tool chain.
+  </td>
+  <td markdown="1">
+  Setup proper deployment orchestration since scaling usually causes multiple parallel environments. Make it possible to run test environment with parallel loads, rewrite tests if needed so they don't clash.
+  </td>
 </tr>
 <tr>
   <th colspan="1">Developer Experience</th>
@@ -146,8 +150,5 @@ parenturl: /minimumviableapiarchitecturemvaa/
   Adjust your metrics to see new registrations by developers and how the amount of requests grows per API consumer segment.
   </td>
 </tr>
-
-
-
 </tbody>
 </table>
