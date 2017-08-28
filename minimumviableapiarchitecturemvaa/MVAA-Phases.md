@@ -1,7 +1,7 @@
 ---
 title: Minimun Viable Architecture Phases
 permalink: /minimumviableapiarchitecturemvaa/mvaa-phases/
-parenturl: /mvaa-phases/
+parenturl: /minimumviableapiarchitecturemvaa/
 ---
 
 <table>
@@ -24,8 +24,10 @@ parenturl: /mvaa-phases/
 1.  What platform are the API consuming clients building their services to? Where is it physically located? What special requirements does it have e.g. JSON as data format, can use headers, can use all http -headers, authentication).
 2.  What are the systems providing data or logic as backend to this API? With what technology are they built? Where is it physically located? What special requirements does it have (data formats, authentication, interface specification, load restrictions).
 </td>
-<td colspan="1">&nbsp;</td>
-<td colspan="1">&nbsp;</td>
+<td markdown="1">
+1.  Are there multiple API Consumers starting to use the API?
+2.  Is the business model changing dramatically? For example price for using the API is going down or API is becoming otherwise much more popular?
+</td>
 </tr>
 
 </tbody>
