@@ -3,9 +3,7 @@ title: Minimum Viable API Architecture
 permalink: /minimumviableapiarchitecturemvaa/
 ---
 
-## Overview of the MVAA method for designing architecture
-
-Minimum Viable Architecture is a set of design principles which is very suitable for APIs, microservices and API management as it is designed for different stages of growth and maturity. In general, the MVA approach can be used for any architecture design process, but here we have adopted it to APIs, microservices and API management specifically.
+One of the key elements in **Agile** methodologies is [Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product). MVP is a product with just enough features to satisfy early customers and to provide feedback for future development. Minumum Viable Architecture has similar idea, create a product by prototyping and building just enough; the sooner the consumers get to use the API the faster real requirements are received. **Minimum Viable Architecture** is a set of design principles which is very suitable for APIs, microservices and API management as it is designed for different stages of growth and maturity. In general, the MVA approach can be used for any architecture design process, but here we have adopted it to APIs, microservices and API management specifically. Building APIs with Agile methods is balancing the minimal required product with minimal required architecture.
 
 **MVA -approach should be used after API Canvas for each API under planning has been created.**
 
@@ -15,15 +13,15 @@ Phases of Minimum Viable Architecture are:
 2.  Building Just enough - implementation - typically when building a new API for 1-2 API consumers
 3.  Scaling - typically when existing API needs to serve a growing number of consumers
 
-## Before you enter any of the actual MVAA design phases
+### Before you enter any of the actual MVAA design phases
 
 *   Make sure the [API Canvas](../apicanvas) has been created using the [APIOps&reg; Cycles templates](apiopscycles)
 
 *   Collect [architecture requirements](collectingarchitecturerequirements) using the [APIOps&reg; Cycles templates](apiopscycles)
 
-## Prototype
+### Prototype
 
-> Goal: Zero code or tech prodocts used (or only existing), mimimal budget, still possibility to change plans radically >
+> Goal: Zero code or tech prodocts used (or only existing), mimimal budget, still possibility to change plans radically
 
 When going through the APIOPS Cycle in the Prototype phase of building (an) API
 
