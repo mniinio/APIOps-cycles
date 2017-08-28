@@ -16,9 +16,9 @@ Phases of Minimum Viable Architecture are:
 3.  **Scaling** - typically when existing API needs to serve a growing number of consumers
   > Goal: Scale your architecture with the growing business
 
-**Before you enter any of the actual MVAA design phases**
+Each Phase of MVAA goes thru the entire APIOps&reg; Cycle. Developement from here on is cyclic and iterative. All APIOps&reg; Cycles are descibed per MVAA Phase in [Minumum Viable API Architecture Phases](mvaa-phases)
+
+## Before you enter any of the actual MVAA design phases
 
 *   Make sure the [API Canvas](../apicanvas) has been created using the [APIOps&reg; Cycles templates](apiopscycles)
 *   Collect [architecture requirements](collectingarchitecturerequirements) using the [APIOps&reg; Cycles templates](apiopscycles)
-
-[Minumum Viable API Architecture Phases](mvaa-phases)
