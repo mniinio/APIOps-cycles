@@ -110,9 +110,10 @@ parenturl: /minimumviableapiarchitecturemvaa/
   1.  Ask feedback from UI-developers, partners, customers, backend system administrators, API developers, business people.
   2.  At this stage fixing is really fast and easy.
   </td>
-  <td markdown="1">
-  1.  Get an API management tool with basic configurations and other analytics in place. Goal is to make sure you have detailed analytics on how the APIs are being used, what errors happen, and who is really using it. It's important to be able to learn, improve and diagnose errors quickly.
-  2.  Setup dashboards and analytics and share data (even if just with links to dashboards) with your API -consumers and your backend system admins so that it's easy to see where the problems are, if any.
+  <td markdown="1">  
+  1.  Ask feedback from UI-developers, partners, customers, backend system administrators, API developers, business people.
+  2.  Try to make API- interface as stable as possible according to the OpenAPI specification.
+  3.  Actual service implementation can be less pretty and less modular and not built for scaling, but you should be able to replace bigger pieces with smaller pieces or other implementation later at leats by re-writing the code.
   </td>
   <td markdown="1">
   Response times should be lower after scaling or at least as good as before.
@@ -143,8 +144,12 @@ parenturl: /minimumviableapiarchitecturemvaa/
   3.  **Fix the design according to feedback until about 80% of people around you are happy about it, then move on to "Just Enough" -phase.**
   </td>
   <td markdown="1">
-  1.  Get an API management tool with basic configurations and other analytics in place. Goal is to make sure you have detailed analytics on how the APIs are being used, what errors happen, and who is really using it. It's important to be able to learn, improve and diagnose errors quickly.
-  2.  Setup dashboards and analytics and share data (even if just with links to dashboards) with your API -consumers and your backend system admins so that it's easy to see where the problems are, if any.
+  Talk to the different stakeholders, participate in UI / client / backend service meetings and look at analytics to see what new features are needed, what improvements should be made. Take them to the API Canvas and start new round (continue to Prototyping -phase, Just Enough phase or Scaling -phase depending on the learnings).
+  For example
+  *   If developers have lots of questions about what attributes should be used, or there are errors (typically 500 errors) because some attributes should always be used together or some values are not accepted by the backend, but it's not possible to know from the documenation. <span>Go back to prototype phase and consider adding JSON schemas, documentation and/or simplifying endpoints. If the API specification and JSON schemas are covering the problem cases, the API gateway should be able to give back 400 Bad request before the request goes to backend.</span>
+  *   <span>If there are lots of 400 errors, look at them closely. It's typically either a recurring problem with API consumers code due to bug or misunderstanding the API documentation. It might be also an indication of possibility to improve the API design to cover those cases that now fail.</span>
+  *   Lots of 401 errors tell you that someone is either hacking their way to the API, but more commonly they don't understand the instructions for authentication or there is something wrong with the gateway. Note that if OpenId Connect is being used, there will always be 401 errors when the token expires.
+  *   Are the APIs meeting the need? What do real API consumers have to say? Are they some potential API consumers who are not yet using the API? Why not?
   </td>
   <td markdown="1">
   Adjust your metrics to see new registrations by developers and how the amount of requests grows per API consumer segment.
