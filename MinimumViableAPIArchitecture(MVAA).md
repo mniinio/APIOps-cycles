@@ -13,13 +13,16 @@ Phases of Minimum Viable Architecture are:
 2.  Building Just enough - implementation - typically when building a new API for 1-2 API consumers
 3.  Scaling - typically when existing API needs to serve a growing number of consumers
 
-### Before you enter any of the actual MVAA design phases
+**Before you enter any of the actual MVAA design phases**
 
 *   Make sure the [API Canvas](../apicanvas) has been created using the [APIOps&reg; Cycles templates](apiopscycles)
-
 *   Collect [architecture requirements](collectingarchitecturerequirements) using the [APIOps&reg; Cycles templates](apiopscycles)
 
-### Prototype
+[test](mvaa-phases)
+
+#### Prototype
+
+
 
 > Goal: Zero code or tech prodocts used (or only existing), mimimal budget, still possibility to change plans radically
 
@@ -158,7 +161,7 @@ Validate the prototype with [API Audit](../apiaudit).
 
 
 
-## Just Enough
+#### Just Enough
 
 > Goal: Nothing is built "Just in Case", customer needs can evolve while building, as small budget as possible
 
@@ -293,7 +296,7 @@ For example
 
 </table>
 
-## Scaling
+#### Scaling
 
 >   
 > Goal: Scale your architecture with the growing business
