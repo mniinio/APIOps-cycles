@@ -19,7 +19,7 @@ The APIs should provide not only value to your consumers but should be appealing
 
 All methods used are **technology agnostic**. Used technology to create, manage, release and test the APIs should be evaluated per purpose. Open source technologies as well as commercial products are possible to use with APIOps&reg; Cycles.
 
-**APIOps&reg; goal is to design, build, test and release APIs more rapidly, frequently and reliably.**
+**APIOps&reg; goal is to design, build, test and release APIs more rapidly, frequently and reliably. In short, to build standardized API value chain automation**
 
 ### Digia Plc.
 [Digia Plc](www.digia.com) is using APIOps&reg; Cycles in their own customer projects. The purpose of the guidelines is to define standards in API Driven development and to continuosly develop the methods and best practices.
