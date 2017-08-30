@@ -25,4 +25,4 @@ All methods used are **technology agnostic**. Used technology to create, manage,
 [Digia Plc](www.digia.com) is using APIOps&reg; Cycles in their own customer projects. The purpose of the guidelines is to define standards in API Driven development and to continuosly develop the methods and best practices.
 
 ### APInf Oy
-[APInf Oy](apinf.com) contributes to APIOps&reg; Cycles and promotes it to all customers. Although APIOps&reg; trademark is registered trademark of APInf Oy, it stays with community, contributors and members are encouraged to address it. APIOps&reg; trademark brings an unique identity to the community. APInf Oy commits to stay as active contributor and partner of APIOps&reg;.
+[APInf Oy](apinf.com) contributes to APIOps&reg; Cycles and promotes it to all customers. Although APIOps&reg; trademark is registered trademark of APInf Oy, [it stays with community, contributors and members are encouraged to address it](https://medium.com/apinf/apinf-with-apiops-799dc5102e41). APIOps&reg; trademark brings an unique identity to the community. APInf Oy commits to stay as active contributor and partner of APIOps&reg;.
