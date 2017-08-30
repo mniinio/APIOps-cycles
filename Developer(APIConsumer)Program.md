@@ -1,5 +1,5 @@
 ---
-title: Developer Program
+title: Developer Experience
 permalink: /developerapiconsumerprogram/
 ---
 
@@ -17,7 +17,7 @@ Developer experience is linked to both business, product and technical features
 *   being able to give geedback , knowing about changes, the image and brand of the company offering the API
 *   cost of using it
 
-Developer experience design starts when the API is designed with [1\. API Canvas](../apicanvas) and there are special API consumer related requirements gathered in the architecture phase, see [Collecting architecture requirements](../CollectingArchitectureRequirements).
+Developer experience design starts when the API is designed with [API Canvas](../apicanvas) and there are special API consumer related requirements gathered in the architecture phase, see [Collecting architecture requirements](../CollectingArchitectureRequirements).
 
 The table below lists typical developer experience affecting resources, tools and processes.
 
@@ -26,7 +26,7 @@ The table below lists typical developer experience affecting resources, tools an
 * Portal UI design (Company specific, based on branding and content creation guidelines)
   * [<u>Azure API management guide</u>](https://docs.microsoft.com/en-us/azure/api-management/api-management-modify-content-layout)
   * [IBM API Connect - Customizing the API Connect Developer Portal](https://developer.ibm.com/apiconnect/2017/07/19/customizing-api-connect-developer-portal/)
-  
+
 * Content and communication guidelines
   * All API documentation should be generated from API Product and OpenAPI documents and masters should be stored and edited using version control, not directly to API management/portal.
   * Content, language, what information is shared, which channels and formats used, etc.
