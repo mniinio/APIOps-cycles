@@ -11,6 +11,8 @@ APIOps&reg; method uses modern and proven frameworks with a twist of our experie
 
 APIOps&reg; Cycles is created in collaboration with open non-profit [APIOps.net Community](https://medium.com/apiops) and [Digia Plc](www.digia.com). APIOps&reg; is a registred trademark of [APInf Oy](http://apinf.com). Templates and method is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
 
+[**APIOPs&reg; community**](apiops.net) is open for all and used as framework to promote and develop APIOPs&reg; Cycles.  
+
 **RESTful API**'s are in the core of services. One major difference to normal API development is that APIs are considered as products, not unique services. APIs are owned, improved continuosly and should be advocated for the consumers. They can be sold and bought and they are the lifeblood to the applications using them.
 
 The APIs should provide not only value to your consumers but should be appealing to developers. They should be easy to understand, discover and use, a set of API's should always be consistent. API's can be used by several consumers; applications or even devices.
