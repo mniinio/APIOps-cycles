@@ -13,3 +13,4 @@ Creators:
 * @jiivari Digia Oyj
 
 Contributors:
+* @kyyberi APInf Oy
