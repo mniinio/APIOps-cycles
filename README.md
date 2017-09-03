@@ -10,7 +10,10 @@ APIOps&reg; Cycles is created in collaboration with open non-profit [APIOps.net 
 
 ## How do you use
 
-TBD
+The APIOps&reg; Cycles model can be used in various ways. Here's a few obvious examples: 
+
+* Use the model to help customers with entering API economy and adopt standardized processes in API development and maintenance to maximise results and to minimize costs. 
+* Use the model in API management and alike tool development as a process model.
 
 ## Where is the published site
 
@@ -27,6 +30,7 @@ There are multiple ways to contribute, but here's a few:
 * Tweet about the APIOps Cycles&reg; model. 
 * Write blogs about it
 * Discuss about it in community boards to find new viewpoints (and provide link here). 
+* Build new tools to support usage of APIOps&reg; Cycles. We are happy to include open source solutions under APIOps organisation in Github. 
 * Use the model or parts of it and share experiences in APIOps meetups. [Local groups can be found from apiops.net](https://medium.com/apiops/apiops-global-network-local-communities-6e72becd2b6b)
 * Submit an issue (new feature or bug). More details about submitting issue can be found below. 
 
