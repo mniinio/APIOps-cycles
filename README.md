@@ -25,7 +25,9 @@ We welcome all new contributions which help us to iterate APIOps Cycles model fu
 There are multiple ways to contribute, but here's a few: 
 
 * Tweet about the APIOps Cycles&reg; model. 
+* Write blogs about it
 * Discuss about it in community boards to find new viewpoints (and provide link here). 
+* Use the model or parts of it and share experiences in APIOps meetups. [Local groups can be found from apiops.net](https://medium.com/apiops/apiops-global-network-local-communities-6e72becd2b6b)
 * Submit an issue (new feature or bug). More details about submitting issue can be found below. 
 
 ## How do you report issues
