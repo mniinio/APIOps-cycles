@@ -61,7 +61,7 @@ A few more things:
 
 ## About pages
 
-The site is built with [Jekyll](https://jekyllrb.com/) from the content in Markdown files. Every commit to master -branch triggers update automatically to github built-in jekyll static site generator and after successfull commit in about 10s-5 minutes the site is built). 
+The site is built with [Jekyll](https://jekyllrb.com/) from the content in Markdown files. Every commit to master -branch triggers update automatically to github built-in jekyll static site generator and after successfull commit in about 1-5 minutes the site is built. 
 
 You can use the [editor on GitHub](https://github.com/mniinio/APIOps-cycles/edit/master/README.md) to maintain and preview the content for your website in Markdown files
 
