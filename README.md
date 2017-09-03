@@ -2,10 +2,17 @@
 
 You can use the [editor on GitHub](https://github.com/mniinio/APIOps-cycles/edit/master/README.md) to maintain and preview the content for your website in Markdown files
 
-
 ## What is this?
 
+The APIOps&reg; Cycles is a set of tools and methods for designing **API Management compatible API's with Clear business orientation and best practice architecture patters**.
+
+APIOps&reg; method uses modern and proven frameworks with a twist of our experience to the them for APIs. All methods have a Lean management base: [DevOps (wikipedia)](https://en.wikipedia.org/wiki/DevOps), [Business Model Canvas (wikipedia)](https://en.wikipedia.org/wiki/Business_Model_Canvas), [Value Proposition Canvas](), [Lean Startup (wikipedia)](https://en.wikipedia.org/wiki/Lean_startup), [Minimum Viable Architecture](https://www.enterpriseirregulars.com/116163/minimum-viable-architecture-good-enough-good-enough-enterprise/) and [API Model Canvas](https://www.slideshare.net/3scale/api-model-canvas-apidays-mediterranea-2015). Afore mentioned frameworks, tools and methods have been re-interpreted to create the APIOps&reg; Cycles. 
+
+APIOps&reg; Cycles is created in collaboration with open non-profit [APIOps.net Community](https://medium.com/apiops) and [Digia Plc](www.digia.com). APIOps&reg; is a registered trademark of [APInf Oy](http://apinf.com). Templates and method is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
+
 ## How do you use
+
+TBD
 
 ## Where is the published site
 
@@ -21,7 +28,7 @@ There are multiple ways to contribute, but here's a few:
 
 * Tweet about the APIOps Cycles&reg; model. 
 * Discuss about it in community boards to find new viewpoints (and provide link here). 
-* Submit an issue (new feature or bug). More details about submitting issue can be found above. 
+* Submit an issue (new feature or bug). More details about submitting issue can be found below. 
 
 ## How do you report issues
 
@@ -47,7 +54,7 @@ A few more things:
 * Format your messages. 
 * Add links to you references.
 
-## ABout pages
+## About pages
 
 The site is built with [Jekyll](https://jekyllrb.com/) from the content in Markdown files. Every commit to master -branch triggers update automatically to github built-in jekyll static site generator and after successfull commit in about 10s-5 minutes the site is built)
 
