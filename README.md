@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## APIOps Cycles
 
-You can use the [editor on GitHub](https://github.com/mniinio/APIOps-cycles/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](https://github.com/mniinio/APIOps-cycles/edit/master/README.md) to maintain and preview the content for your website in Markdown files
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### What is this?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### How do you use
 
-```markdown
-Syntax highlighted code block
+### Where is the published site
 
-# Header 1
-## Header 2
-### Header 3
+You can access the content in pretty format from [cycles.apiops.net](http://cycles.apiops.net)
+    
+### Contributors
 
-- Bulleted
-- List
+We welcome all new contributions which help us to iterate APIOps Cycles model further. All the [contributors are listed in separate file](contributors.md). 
 
-1. Numbered
-2. List
+### How do you report issues
+### How do you contribute
 
-**Bold** and _Italic_ and `Code` text
+how is the site updated (answer: 
 
-[Link](url) and ![Image](src)
-```
+
+## ABout pages
+
+The site is built with [Jekyll](https://jekyllrb.com/) from the content in Markdown files. Every commit to master -branch triggers update automatically to github built-in jekyll static site generator and after successfull commit in about 10s-5 minutes the site is built)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mniinio/APIOps-cycles/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
