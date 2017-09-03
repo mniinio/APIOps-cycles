@@ -1,21 +1,29 @@
-## APIOps&reg; Cycles
+# APIOps&reg; Cycles
 
 You can use the [editor on GitHub](https://github.com/mniinio/APIOps-cycles/edit/master/README.md) to maintain and preview the content for your website in Markdown files
 
 
-### What is this?
+## What is this?
 
-### How do you use
+## How do you use
 
-### Where is the published site
+## Where is the published site
 
 You can access the content in pretty format from [cycles.apiops.net](http://cycles.apiops.net)
     
-### Contributors
+## Contributors
 
 We welcome all new contributions which help us to iterate APIOps Cycles model further. All the [contributors are listed in separate file](contributors.md). 
 
-### How do you report issues
+## How do you contribute
+
+There are multiple ways to contribute, but here's a few: 
+
+* Tweet about the APIOps Cycles&reg; model. 
+* Discuss about it in community boards to find new viewpoints (and provide link here). 
+* Submit an issue (new feature or bug). More details about submitting issue can be found above. 
+
+## How do you report issues
 
 Before submitting new issue, please check out the previous issues in case your topic has alredy been started by someone else. If you can't find any similat issue, begin a new one. A good issue normally takes the following into account: 
 
@@ -38,14 +46,6 @@ A few more things:
 * Include the right people in your discussion. 
 * Format your messages. 
 * Add links to you references.
-
-### How do you contribute
-
-There are multiple ways to contribute, but here's a few: 
-
-* Tweet about the APIOps Cycles&reg; model. 
-* Discuss about it in community boards to find new viewpoints (and provide link here). 
-* Submit an issue (new feature or bug). More details about submitting issue can be found above. 
 
 ## ABout pages
 
