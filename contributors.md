@@ -9,7 +9,7 @@ API MVA templates created by [Digia Plc](https://www.digia.com/) re-interpreted 
 
 Creators:
 
-* @mniinioja Digia Oyj
+* @mniinio Digia Oyj
 * @slairal Digia Oyj
 * @jiivari Digia Oyj
 
